@@ -66,9 +66,9 @@ To validate a core library, you need:
  - [ ] Code Libraries
  - [ ] Write CI
  - [ ] Write utility programs like
- - [ ] Nut Beautifier
- - [ ] Converter Json/Yaml/Nut
- - [ ] Nut validator
+     - [ ] Nut Beautifier
+     - [ ] Converter Json/Yaml/Nut
+     - [ ] Nut validator
 
 ## Miscellaneous list
 
