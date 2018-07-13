@@ -1,0 +1,63 @@
+[
+    {
+      "id": 0,
+      "name": "francis HANCOCK",
+      "work": "SixtySix",
+      "email": "francis.hancock@sixtysix.xyz",
+      "dob": "1957",
+      "address": "74 Elm Street",
+      "city": "York",
+      "optedin": false
+      "salary": 81424
+      "float": 10051.18
+    },
+    {
+      "id": 1,
+      "name": "miles RHYMER",
+      "work": "Thermolock",
+      "email": "miles.rhymer@thermolock.com",
+      "dob": "1933",
+      "address": "6 Buckfield Lane",
+      "city": "Newark",
+      "optedin": false
+      "salary": 90170
+      "float": 21481.46
+    },
+    {
+      "id": 2,
+      "name": "adam HOTTLE",
+      "work": "Superwire",
+      "email": "adam.hottle@superwire.net",
+      "dob": "1918",
+      "address": "91 Sawmill Lane",
+      "city": "Cardiff",
+      "optedin": true
+      "salary": 65247
+      "float": 32007.30
+    },
+    {
+      "id": 3,
+      "name": "stan RISLEY",
+      "work": "StrategyLine",
+      "email": "stan.risley@strategyline.eu",
+      "dob": "1918",
+      "address": "92 Hill Street",
+      "city": "Telford",
+      "optedin": false
+      "salary": 62516
+      "float": 23316.76
+    },
+    {
+      "id": 4,
+      "name": "ivan CAPPEL",
+      "work": "VTGrafix",
+      "email": "ivan.cappel@vtgrafix.eu",
+      "dob": "1927",
+      "address": "73 Mercer Street",
+      "city": "Oakland",
+      "optedin": false
+      "salary": 3865
+      "float": 26976.95
+    }
+]
+

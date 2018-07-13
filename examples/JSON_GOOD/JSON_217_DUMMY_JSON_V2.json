@@ -1,0 +1,63 @@
+[
+    {
+      "id": 0,
+      "name": "roselyn REMUS",
+      "work": "WestGate",
+      "email": "roselyn.remus@westgate.org",
+      "dob": "1950",
+      "address": "66 Cottontail Road",
+      "city": "Plymouth",
+      "optedin": false
+      "salary": 8046
+      "float": 35281.16
+    },
+    {
+      "id": 1,
+      "name": "lance YOUNG",
+      "work": "Playtech",
+      "email": "lance.young@playtech.club",
+      "dob": "1986",
+      "address": "21 Sherman Road",
+      "city": "Miami",
+      "optedin": true
+      "salary": 19928
+      "float": 10381.44
+    },
+    {
+      "id": 2,
+      "name": "shea MAGBY",
+      "work": "StrategyLine",
+      "email": "shea.magby@strategyline.mobi",
+      "dob": "1923",
+      "address": "48 Pembrooke Street",
+      "city": "Coventry",
+      "optedin": true
+      "salary": 82885
+      "float": 27761.52
+    },
+    {
+      "id": 3,
+      "name": "liza HOTTLE",
+      "work": "CoreXTS",
+      "email": "liza.hottle@corexts.mobi",
+      "dob": "1996",
+      "address": "10 Elton Way",
+      "city": "Reno",
+      "optedin": true
+      "salary": 87231
+      "float": 15481.62
+    },
+    {
+      "id": 4,
+      "name": "edward BACKER",
+      "work": "CoreRobotics",
+      "email": "edward.backer@corerobotics.org",
+      "dob": "1947",
+      "address": "59 Buckley Street",
+      "city": "Hartford",
+      "optedin": true
+      "salary": 62659
+      "float": 47821.07
+    }
+]
+

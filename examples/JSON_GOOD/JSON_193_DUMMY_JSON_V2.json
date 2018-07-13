@@ -1,0 +1,63 @@
+[
+    {
+      "id": 0,
+      "name": "drew YOUNG",
+      "work": "Sunopia",
+      "email": "drew.young@sunopia.eu",
+      "dob": "1960",
+      "address": "10 Chester Square",
+      "city": "Sacramento",
+      "optedin": true
+      "salary": 4794
+      "float": 48049.18
+    },
+    {
+      "id": 1,
+      "name": "isabelle DURRETT",
+      "work": "Cameratek",
+      "email": "isabelle.durrett@cameratek.org",
+      "dob": "1992",
+      "address": "38 Rivington Street",
+      "city": "Toronto",
+      "optedin": false
+      "salary": 7094
+      "float": 23426.84
+    },
+    {
+      "id": 2,
+      "name": "ian SMIT",
+      "work": "Eluxa",
+      "email": "ian.smit@eluxa.info",
+      "dob": "1944",
+      "address": "31 Banner Street",
+      "city": "Danbury",
+      "optedin": true
+      "salary": 18513
+      "float": 11049.67
+    },
+    {
+      "id": 3,
+      "name": "eleanore BICKERS",
+      "work": "Sealine",
+      "email": "eleanore.bickers@sealine.mobi",
+      "dob": "1947",
+      "address": "100 Main Street",
+      "city": "Reno",
+      "optedin": false
+      "salary": 89128
+      "float": 37211.62
+    },
+    {
+      "id": 4,
+      "name": "rufus YOUNG",
+      "work": "Terrasys",
+      "email": "rufus.young@terrasys.co",
+      "dob": "1974",
+      "address": "84 Mercer Street",
+      "city": "Chicago",
+      "optedin": true
+      "salary": 55054
+      "float": 21395.05
+    }
+]
+

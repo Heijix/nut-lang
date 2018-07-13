@@ -1,0 +1,63 @@
+[
+    {
+      "id": 0,
+      "name": "joslyn MIERS",
+      "work": "CoreXTS",
+      "email": "joslyn.miers@corexts.name",
+      "dob": "1949",
+      "address": "28 Rivington Street",
+      "city": "Bradford",
+      "optedin": true
+      "salary": 24004
+      "float": 48668.02
+    },
+    {
+      "id": 1,
+      "name": "rico WEBSTER",
+      "work": "PeerSys",
+      "email": "rico.webster@peersys.biz",
+      "dob": "1932",
+      "address": "84 Blakeley Street",
+      "city": "Melbourne",
+      "optedin": false
+      "salary": 49734
+      "float": 43131.54
+    },
+    {
+      "id": 2,
+      "name": "stan FLINN",
+      "work": "Qualcore",
+      "email": "stan.flinn@qualcore.gov",
+      "dob": "1974",
+      "address": "13 Arlington Road",
+      "city": "Hastings",
+      "optedin": false
+      "salary": 23225
+      "float": 10923.37
+    },
+    {
+      "id": 3,
+      "name": "austin KRUMM",
+      "work": "NitroSystems",
+      "email": "austin.krumm@nitrosystems.club",
+      "dob": "1975",
+      "address": "77 Park Avenue",
+      "city": "Rochester",
+      "optedin": false
+      "salary": 85385
+      "float": 33215.15
+    },
+    {
+      "id": 4,
+      "name": "madeleine MURPHY",
+      "work": "Keysoft",
+      "email": "madeleine.murphy@keysoft.biz",
+      "dob": "1968",
+      "address": "6 Albion Place",
+      "city": "Bakersfield",
+      "optedin": true
+      "salary": 38528
+      "float": 24747.71
+    }
+]
+

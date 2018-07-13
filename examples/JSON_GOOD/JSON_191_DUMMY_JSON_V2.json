@@ -1,0 +1,63 @@
+[
+    {
+      "id": 0,
+      "name": "jocelyn PACE",
+      "work": "Dynaroc",
+      "email": "jocelyn.pace@dynaroc.name",
+      "dob": "1911",
+      "address": "48 Foster Walk",
+      "city": "Seattle",
+      "optedin": false
+      "salary": 23109
+      "float": 34723.00
+    },
+    {
+      "id": 1,
+      "name": "stan ZOBEL",
+      "work": "Opticast",
+      "email": "stan.zobel@opticast.xyz",
+      "dob": "1931",
+      "address": "30 Emmet Road",
+      "city": "Denver",
+      "optedin": true
+      "salary": 86923
+      "float": 19277.71
+    },
+    {
+      "id": 2,
+      "name": "yuri YOUNG",
+      "work": "MultiServ",
+      "email": "yuri.young@multiserv.com",
+      "dob": "1992",
+      "address": "51 Hinton Road",
+      "city": "Hastings",
+      "optedin": false
+      "salary": 76886
+      "float": 36378.75
+    },
+    {
+      "id": 3,
+      "name": "ian FRIEDRICH",
+      "work": "Quadtek",
+      "email": "ian.friedrich@quadtek.name",
+      "dob": "1966",
+      "address": "73 Sleepy Lane",
+      "city": "Orlando",
+      "optedin": false
+      "salary": 89933
+      "float": 29406.43
+    },
+    {
+      "id": 4,
+      "name": "adam SEABURY",
+      "work": "CorpTek",
+      "email": "adam.seabury@corptek.gov",
+      "dob": "1999",
+      "address": "94 Moreland Street",
+      "city": "Boulder",
+      "optedin": true
+      "salary": 91344
+      "float": 42219.77
+    }
+]
+

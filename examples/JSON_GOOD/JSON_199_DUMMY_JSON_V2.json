@@ -1,0 +1,63 @@
+[
+    {
+      "id": 0,
+      "name": "danny PASCHALL",
+      "work": "Galcom",
+      "email": "danny.paschall@galcom.eu",
+      "dob": "1959",
+      "address": "41 Templeton Parkway",
+      "city": "Dayton",
+      "optedin": true
+      "salary": 17722
+      "float": 16282.77
+    },
+    {
+      "id": 1,
+      "name": "rico MURPHY",
+      "work": "Dynalab",
+      "email": "rico.murphy@dynalab.com",
+      "dob": "1913",
+      "address": "54 Concord Avenue",
+      "city": "Canterbury",
+      "optedin": false
+      "salary": 29878
+      "float": 46214.63
+    },
+    {
+      "id": 2,
+      "name": "emma REBELO",
+      "work": "Bellgate",
+      "email": "emma.rebelo@bellgate.club",
+      "dob": "1942",
+      "address": "35 Seaside Drive",
+      "city": "Fresno",
+      "optedin": true
+      "salary": 85575
+      "float": 15364.86
+    },
+    {
+      "id": 3,
+      "name": "hannah MURPHY",
+      "work": "Viewtopia",
+      "email": "hannah.murphy@viewtopia.gov",
+      "dob": "1947",
+      "address": "33 Faraday Street",
+      "city": "Boulder",
+      "optedin": true
+      "salary": 72256
+      "float": 34034.95
+    },
+    {
+      "id": 4,
+      "name": "haley WINTER",
+      "work": "Templatek",
+      "email": "haley.winter@templatek.club",
+      "dob": "1966",
+      "address": "38 Shaftsbury Avenue",
+      "city": "Oakleigh",
+      "optedin": true
+      "salary": 79435
+      "float": 45292.57
+    }
+]
+

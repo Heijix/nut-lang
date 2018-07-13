@@ -1,0 +1,63 @@
+[
+    {
+      "id": 0,
+      "name": "jason BOURQUIN",
+      "work": "Sunopia",
+      "email": "jason.bourquin@sunopia.net",
+      "dob": "1952",
+      "address": "35 Bushey Crescent",
+      "city": "London",
+      "optedin": false
+      "salary": 17760
+      "float": 40228.26
+    },
+    {
+      "id": 1,
+      "name": "tyler KRUMM",
+      "work": "FastFreight",
+      "email": "tyler.krumm@fastfreight.com",
+      "dob": "1979",
+      "address": "26 Stockton Lane",
+      "city": "Nottingham",
+      "optedin": false
+      "salary": 28294
+      "float": 25282.91
+    },
+    {
+      "id": 2,
+      "name": "ivan MAGBY",
+      "work": "SkyCenta",
+      "email": "ivan.magby@skycenta.gov",
+      "dob": "1948",
+      "address": "73 Fairmont Avenue",
+      "city": "Wilmington",
+      "optedin": true
+      "salary": 88718
+      "float": 31459.84
+    },
+    {
+      "id": 3,
+      "name": "ivan BRYD",
+      "work": "Conixco",
+      "email": "ivan.bryd@conixco.net",
+      "dob": "1946",
+      "address": "47 Glenn Drive",
+      "city": "Dover",
+      "optedin": true
+      "salary": 70590
+      "float": 12342.21
+    },
+    {
+      "id": 4,
+      "name": "haley STINE",
+      "work": "Seelogic",
+      "email": "haley.stine@seelogic.mobi",
+      "dob": "1991",
+      "address": "29 Sterling Street",
+      "city": "Plymouth",
+      "optedin": true
+      "salary": 19453
+      "float": 46558.61
+    }
+]
+

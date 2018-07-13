@@ -1,0 +1,63 @@
+[
+    {
+      "id": 0,
+      "name": "neida KILMER",
+      "work": "Thermolock",
+      "email": "neida.kilmer@thermolock.edu",
+      "dob": "1994",
+      "address": "26 Canal Street",
+      "city": "Portland",
+      "optedin": true
+      "salary": 14039
+      "float": 35434.24
+    },
+    {
+      "id": 1,
+      "name": "jetta BRYD",
+      "work": "OmniTouch",
+      "email": "jetta.bryd@omnitouch.edu",
+      "dob": "1926",
+      "address": "70 Winston Road",
+      "city": "Baltimore",
+      "optedin": true
+      "salary": 62914
+      "float": 47840.40
+    },
+    {
+      "id": 2,
+      "name": "katelin SMIT",
+      "work": "Unilogic",
+      "email": "katelin.smit@unilogic.co",
+      "dob": "1910",
+      "address": "76 Alexander Avenue",
+      "city": "Sheffield",
+      "optedin": true
+      "salary": 88920
+      "float": 43447.40
+    },
+    {
+      "id": 3,
+      "name": "raymond PACE",
+      "work": "Britech",
+      "email": "raymond.pace@britech.club",
+      "dob": "1920",
+      "address": "49 Foster Walk",
+      "city": "Boulder",
+      "optedin": false
+      "salary": 39572
+      "float": 43385.94
+    },
+    {
+      "id": 4,
+      "name": "stephen OLDMAN",
+      "work": "Thermolock",
+      "email": "stephen.oldman@thermolock.name",
+      "dob": "1958",
+      "address": "66 Elm Street",
+      "city": "Frankston",
+      "optedin": true
+      "salary": 97414
+      "float": 48660.19
+    }
+]
+

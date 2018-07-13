@@ -1,0 +1,63 @@
+[
+    {
+      "id": 0,
+      "name": "warren GARLING",
+      "work": "DynaAir",
+      "email": "warren.garling@dynaair.eu",
+      "dob": "1939",
+      "address": "46 Fairmont Avenue",
+      "city": "Toronto",
+      "optedin": true
+      "salary": 50389
+      "float": 11127.45
+    },
+    {
+      "id": 1,
+      "name": "myong RHYMER",
+      "work": "Viewtopia",
+      "email": "myong.rhymer@viewtopia.biz",
+      "dob": "1964",
+      "address": "27 Rivington Street",
+      "city": "Lewisburg",
+      "optedin": false
+      "salary": 35846
+      "float": 43317.12
+    },
+    {
+      "id": 2,
+      "name": "heath BRYD",
+      "work": "Britech",
+      "email": "heath.bryd@britech.mobi",
+      "dob": "1947",
+      "address": "54 Baker Street",
+      "city": "Norwich",
+      "optedin": false
+      "salary": 16202
+      "float": 23426.56
+    },
+    {
+      "id": 3,
+      "name": "jamie BOURQUIN",
+      "work": "Infratouch",
+      "email": "jamie.bourquin@infratouch.gov",
+      "dob": "1944",
+      "address": "65 Arlington Road",
+      "city": "Rockhampton",
+      "optedin": true
+      "salary": 18
+      "float": 42490.59
+    },
+    {
+      "id": 4,
+      "name": "lyle BICKERS",
+      "work": "TrioSys",
+      "email": "lyle.bickers@triosys.me",
+      "dob": "1986",
+      "address": "42 Pitman Street",
+      "city": "Seattle",
+      "optedin": true
+      "salary": 53610
+      "float": 32837.65
+    }
+]
+

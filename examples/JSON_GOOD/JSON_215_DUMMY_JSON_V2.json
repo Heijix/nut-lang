@@ -1,0 +1,63 @@
+[
+    {
+      "id": 0,
+      "name": "lynetta KILMER",
+      "work": "Iridimax",
+      "email": "lynetta.kilmer@iridimax.net",
+      "dob": "1995",
+      "address": "80 Pembrooke Street",
+      "city": "Spokane",
+      "optedin": false
+      "salary": 26591
+      "float": 49307.67
+    },
+    {
+      "id": 1,
+      "name": "craig BOURNE",
+      "work": "TurboSystems",
+      "email": "craig.bourne@turbosystems.eu",
+      "dob": "1984",
+      "address": "62 Shaftsbury Avenue",
+      "city": "Boulder",
+      "optedin": true
+      "salary": 8722
+      "float": 16878.58
+    },
+    {
+      "id": 2,
+      "name": "cedric LATSHAW",
+      "work": "Opticast",
+      "email": "cedric.latshaw@opticast.eu",
+      "dob": "1972",
+      "address": "17 Prospect Place",
+      "city": "Brisbane",
+      "optedin": true
+      "salary": 62804
+      "float": 37711.40
+    },
+    {
+      "id": 3,
+      "name": "haydee WEBSTER",
+      "work": "Qualcore",
+      "email": "haydee.webster@qualcore.com",
+      "dob": "1964",
+      "address": "71 Barret Street",
+      "city": "Burwood",
+      "optedin": false
+      "salary": 29242
+      "float": 28312.29
+    },
+    {
+      "id": 4,
+      "name": "cyrus MIERS",
+      "work": "Maxcast",
+      "email": "cyrus.miers@maxcast.edu",
+      "dob": "1995",
+      "address": "42 Rivington Street",
+      "city": "Canterbury",
+      "optedin": true
+      "salary": 24153
+      "float": 30979.08
+    }
+]
+

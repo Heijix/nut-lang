@@ -1,0 +1,63 @@
+[
+    {
+      "id": 0,
+      "name": "olivia RIKARD",
+      "work": "SixtySix",
+      "email": "olivia.rikard@sixtysix.com",
+      "dob": "1980",
+      "address": "92 Wall Street",
+      "city": "Oxford",
+      "optedin": false
+      "salary": 85723
+      "float": 30770.59
+    },
+    {
+      "id": 1,
+      "name": "yuri GAMBLE",
+      "work": "Dynalab",
+      "email": "yuri.gamble@dynalab.info",
+      "dob": "1908",
+      "address": "25 Buckfield Lane",
+      "city": "Hillboro",
+      "optedin": true
+      "salary": 15090
+      "float": 37605.86
+    },
+    {
+      "id": 2,
+      "name": "curtis LEATH",
+      "work": "MultiLingua",
+      "email": "curtis.leath@multilingua.eu",
+      "dob": "1983",
+      "address": "96 Windsor Avenue",
+      "city": "Richmond",
+      "optedin": true
+      "salary": 39658
+      "float": 19871.61
+    },
+    {
+      "id": 3,
+      "name": "liza GOUDY",
+      "work": "MediaDime",
+      "email": "liza.goudy@mediadime.me",
+      "dob": "1971",
+      "address": "99 Cottontail Road",
+      "city": "Albany",
+      "optedin": false
+      "salary": 71327
+      "float": 23640.13
+    },
+    {
+      "id": 4,
+      "name": "kirstie PACE",
+      "work": "MultiLingua",
+      "email": "kirstie.pace@multilingua.biz",
+      "dob": "1910",
+      "address": "34 Rutland Drive",
+      "city": "Brisbane",
+      "optedin": true
+      "salary": 83286
+      "float": 49694.54
+    }
+]
+

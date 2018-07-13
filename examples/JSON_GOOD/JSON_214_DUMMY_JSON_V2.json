@@ -1,0 +1,63 @@
+[
+    {
+      "id": 0,
+      "name": "roman SMIT",
+      "work": "Dynaroc",
+      "email": "roman.smit@dynaroc.org",
+      "dob": "1992",
+      "address": "48 Wooster Road",
+      "city": "Fresno",
+      "optedin": false
+      "salary": 40701
+      "float": 35466.87
+    },
+    {
+      "id": 1,
+      "name": "ivan WHITSON",
+      "work": "DuoServe",
+      "email": "ivan.whitson@duoserve.club",
+      "dob": "1965",
+      "address": "37 Albion Place",
+      "city": "Wilmington",
+      "optedin": false
+      "salary": 95839
+      "float": 27357.41
+    },
+    {
+      "id": 2,
+      "name": "lyle BACKER",
+      "work": "Templatek",
+      "email": "lyle.backer@templatek.xyz",
+      "dob": "1975",
+      "address": "63 Pembrooke Street",
+      "city": "Cardiff",
+      "optedin": true
+      "salary": 78832
+      "float": 29684.66
+    },
+    {
+      "id": 3,
+      "name": "travis PASCHALL",
+      "work": "Optiplex",
+      "email": "travis.paschall@optiplex.name",
+      "dob": "1970",
+      "address": "86 Sterling Street",
+      "city": "Denver",
+      "optedin": true
+      "salary": 98994
+      "float": 26959.03
+    },
+    {
+      "id": 4,
+      "name": "vaughn PETTEY",
+      "work": "FastFreight",
+      "email": "vaughn.pettey@fastfreight.info",
+      "dob": "1934",
+      "address": "98 Arlington Road",
+      "city": "Oakleigh",
+      "optedin": true
+      "salary": 66161
+      "float": 23985.99
+    }
+]
+

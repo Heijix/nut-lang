@@ -1,0 +1,63 @@
+[
+    {
+      "id": 0,
+      "name": "ivan REMUS",
+      "work": "MultiServ",
+      "email": "ivan.remus@multiserv.edu",
+      "dob": "1946",
+      "address": "99 Sterling Street",
+      "city": "Palmerston",
+      "optedin": false
+      "salary": 283
+      "float": 25766.38
+    },
+    {
+      "id": 1,
+      "name": "rico MAGBY",
+      "work": "Xenosys",
+      "email": "rico.magby@xenosys.net",
+      "dob": "1987",
+      "address": "84 Alexander Avenue",
+      "city": "Newcastle",
+      "optedin": false
+      "salary": 41730
+      "float": 26197.96
+    },
+    {
+      "id": 2,
+      "name": "haley STARCK",
+      "work": "Opticast",
+      "email": "haley.starck@opticast.me",
+      "dob": "1955",
+      "address": "10 Winston Road",
+      "city": "Portsmouth",
+      "optedin": false
+      "salary": 85068
+      "float": 44419.49
+    },
+    {
+      "id": 3,
+      "name": "shea DURRETT",
+      "work": "MultiServ",
+      "email": "shea.durrett@multiserv.biz",
+      "dob": "1937",
+      "address": "3 Bramble Lane",
+      "city": "Cambridge",
+      "optedin": false
+      "salary": 26636
+      "float": 25106.39
+    },
+    {
+      "id": 4,
+      "name": "rickey LATSHAW",
+      "work": "NitroSystems",
+      "email": "rickey.latshaw@nitrosystems.com",
+      "dob": "1940",
+      "address": "37 Carter Street",
+      "city": "Denver",
+      "optedin": false
+      "salary": 56979
+      "float": 49924.15
+    }
+]
+

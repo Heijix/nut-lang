@@ -1,0 +1,63 @@
+[
+    {
+      "id": 0,
+      "name": "kurt MILLIGAN",
+      "work": "Amsquare",
+      "email": "kurt.milligan@amsquare.club",
+      "dob": "1974",
+      "address": "10 Lake Drive",
+      "city": "Portland",
+      "optedin": false
+      "salary": 16233
+      "float": 48104.06
+    },
+    {
+      "id": 1,
+      "name": "francis HIGGINS",
+      "work": "Conixco",
+      "email": "francis.higgins@conixco.edu",
+      "dob": "1949",
+      "address": "1 Brentwood Drive",
+      "city": "Seattle",
+      "optedin": false
+      "salary": 42892
+      "float": 23426.65
+    },
+    {
+      "id": 2,
+      "name": "michael FLINN",
+      "work": "QuadNet",
+      "email": "michael.flinn@quadnet.biz",
+      "dob": "1957",
+      "address": "30 Brentwood Drive",
+      "city": "Bangor",
+      "optedin": true
+      "salary": 54779
+      "float": 27420.76
+    },
+    {
+      "id": 3,
+      "name": "vernon MILLING",
+      "work": "MultiLingua",
+      "email": "vernon.milling@multilingua.edu",
+      "dob": "1947",
+      "address": "100 Harrington Crescent",
+      "city": "Dublin",
+      "optedin": false
+      "salary": 70667
+      "float": 29826.79
+    },
+    {
+      "id": 4,
+      "name": "katelin GILMORE",
+      "work": "TrioSys",
+      "email": "katelin.gilmore@triosys.xyz",
+      "dob": "1918",
+      "address": "6 Seaside Drive",
+      "city": "Fresno",
+      "optedin": true
+      "salary": 12659
+      "float": 11240.79
+    }
+]
+

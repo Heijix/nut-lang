@@ -1,0 +1,63 @@
+[
+    {
+      "id": 0,
+      "name": "cyrus MAGBY",
+      "work": "Keysoft",
+      "email": "cyrus.magby@keysoft.org",
+      "dob": "1984",
+      "address": "71 Beechmont Parkway",
+      "city": "Oakleigh",
+      "optedin": false
+      "salary": 8320
+      "float": 17536.87
+    },
+    {
+      "id": 1,
+      "name": "selma HUNDT",
+      "work": "Westercom",
+      "email": "selma.hundt@westercom.xyz",
+      "dob": "1969",
+      "address": "65 Sterling Street",
+      "city": "Newport",
+      "optedin": true
+      "salary": 28028
+      "float": 18050.29
+    },
+    {
+      "id": 2,
+      "name": "shea LEATH",
+      "work": "Cryosoft",
+      "email": "shea.leath@cryosoft.eu",
+      "dob": "1902",
+      "address": "32 Winston Road",
+      "city": "Albany",
+      "optedin": false
+      "salary": 56700
+      "float": 47172.48
+    },
+    {
+      "id": 3,
+      "name": "adam RHYMER",
+      "work": "Unilogic",
+      "email": "adam.rhymer@unilogic.gov",
+      "dob": "1916",
+      "address": "74 Moreland Street",
+      "city": "Lancaster",
+      "optedin": false
+      "salary": 68613
+      "float": 24457.37
+    },
+    {
+      "id": 4,
+      "name": "lyle SEABURY",
+      "work": "PeerSys",
+      "email": "lyle.seabury@peersys.mobi",
+      "dob": "1987",
+      "address": "18 Tavistock Place",
+      "city": "Telford",
+      "optedin": false
+      "salary": 99330
+      "float": 26153.48
+    }
+]
+

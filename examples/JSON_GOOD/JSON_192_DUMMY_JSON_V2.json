@@ -1,0 +1,63 @@
+[
+    {
+      "id": 0,
+      "name": "edward PENDERGAST",
+      "work": "Cameratek",
+      "email": "edward.pendergast@cameratek.me",
+      "dob": "1960",
+      "address": "26 Windsor Avenue",
+      "city": "Dublin",
+      "optedin": true
+      "salary": 90426
+      "float": 48402.96
+    },
+    {
+      "id": 1,
+      "name": "danny STINE",
+      "work": "Seelogic",
+      "email": "danny.stine@seelogic.gov",
+      "dob": "1988",
+      "address": "76 Golden Lane",
+      "city": "Danbury",
+      "optedin": false
+      "salary": 84569
+      "float": 37410.21
+    },
+    {
+      "id": 2,
+      "name": "rosanne CHAPMAN",
+      "work": "SmartSystems",
+      "email": "rosanne.chapman@smartsystems.com",
+      "dob": "1952",
+      "address": "47 Tower Lane",
+      "city": "Boston",
+      "optedin": false
+      "salary": 15649
+      "float": 37312.51
+    },
+    {
+      "id": 3,
+      "name": "mitch CASTLEMAN",
+      "work": "PeerSys",
+      "email": "mitch.castleman@peersys.gov",
+      "dob": "1958",
+      "address": "28 Longford Crescent",
+      "city": "Brisbane",
+      "optedin": true
+      "salary": 53540
+      "float": 31739.55
+    },
+    {
+      "id": 4,
+      "name": "myong STINE",
+      "work": "SixtySix",
+      "email": "myong.stine@sixtysix.name",
+      "dob": "1929",
+      "address": "82 Waverton Street",
+      "city": "Plymouth",
+      "optedin": false
+      "salary": 34416
+      "float": 10368.88
+    }
+]
+

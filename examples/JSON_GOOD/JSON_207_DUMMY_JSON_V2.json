@@ -1,0 +1,63 @@
+[
+    {
+      "id": 0,
+      "name": "drew MILLING",
+      "work": "VTGrafix",
+      "email": "drew.milling@vtgrafix.mobi",
+      "dob": "1917",
+      "address": "40 Glendale Road",
+      "city": "Orlando",
+      "optedin": true
+      "salary": 8382
+      "float": 42290.99
+    },
+    {
+      "id": 1,
+      "name": "isabelle TUCK",
+      "work": "Infratouch",
+      "email": "isabelle.tuck@infratouch.xyz",
+      "dob": "1914",
+      "address": "21 Buckley Street",
+      "city": "Spokane",
+      "optedin": true
+      "salary": 1584
+      "float": 17180.35
+    },
+    {
+      "id": 2,
+      "name": "austin KARST",
+      "work": "Logico",
+      "email": "austin.karst@logico.gov",
+      "dob": "1957",
+      "address": "89 Seaside Drive",
+      "city": "Toronto",
+      "optedin": true
+      "salary": 16537
+      "float": 48885.42
+    },
+    {
+      "id": 3,
+      "name": "cecilia WHITSON",
+      "work": "Dalserve",
+      "email": "cecilia.whitson@dalserve.mobi",
+      "dob": "1905",
+      "address": "12 Blakeley Street",
+      "city": "Bradford",
+      "optedin": true
+      "salary": 14516
+      "float": 19672.24
+    },
+    {
+      "id": 4,
+      "name": "marcus VERDE",
+      "work": "Dalserve",
+      "email": "marcus.verde@dalserve.biz",
+      "dob": "1941",
+      "address": "44 Rutherford Street",
+      "city": "Lancaster",
+      "optedin": false
+      "salary": 45323
+      "float": 20881.39
+    }
+]
+

@@ -1,0 +1,63 @@
+[
+    {
+      "id": 0,
+      "name": "rufus DROLET",
+      "work": "FastFreight",
+      "email": "rufus.drolet@fastfreight.name",
+      "dob": "1944",
+      "address": "41 Radcliffe Road",
+      "city": "Boulder",
+      "optedin": false
+      "salary": 54322
+      "float": 42995.55
+    },
+    {
+      "id": 1,
+      "name": "chloe CHAPMAN",
+      "work": "QuadNet",
+      "email": "chloe.chapman@quadnet.mobi",
+      "dob": "1901",
+      "address": "30 Hartswood Road",
+      "city": "Hobart",
+      "optedin": false
+      "salary": 82962
+      "float": 34361.61
+    },
+    {
+      "id": 2,
+      "name": "selma MAGBY",
+      "work": "FastFreight",
+      "email": "selma.magby@fastfreight.gov",
+      "dob": "1999",
+      "address": "68 Faraday Street",
+      "city": "Portsmouth",
+      "optedin": true
+      "salary": 64341
+      "float": 48883.69
+    },
+    {
+      "id": 3,
+      "name": "heath MULDOON",
+      "work": "Sunopia",
+      "email": "heath.muldoon@sunopia.mobi",
+      "dob": "1926",
+      "address": "36 Green Street",
+      "city": "Toledo",
+      "optedin": false
+      "salary": 18586
+      "float": 25288.61
+    },
+    {
+      "id": 4,
+      "name": "raylene HYDER",
+      "work": "Storex",
+      "email": "raylene.hyder@storex.biz",
+      "dob": "1982",
+      "address": "22 Orchard Road",
+      "city": "Hastings",
+      "optedin": true
+      "salary": 8465
+      "float": 47782.09
+    }
+]
+

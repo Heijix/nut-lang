@@ -1,0 +1,63 @@
+[
+    {
+      "id": 0,
+      "name": "kurt DURRETT",
+      "work": "Infratouch",
+      "email": "kurt.durrett@infratouch.gov",
+      "dob": "1975",
+      "address": "94 Chestnut Walk",
+      "city": "Stanford",
+      "optedin": false
+      "salary": 85190
+      "float": 19956.44
+    },
+    {
+      "id": 1,
+      "name": "ivan MURPHY",
+      "work": "Britech",
+      "email": "ivan.murphy@britech.org",
+      "dob": "1922",
+      "address": "79 Mulholland Drive",
+      "city": "Norfolk",
+      "optedin": true
+      "salary": 6772
+      "float": 16378.37
+    },
+    {
+      "id": 2,
+      "name": "lyn FENNELL",
+      "work": "WestGate",
+      "email": "lyn.fennell@westgate.biz",
+      "dob": "1924",
+      "address": "66 Ceder Avenue",
+      "city": "Perth",
+      "optedin": true
+      "salary": 77856
+      "float": 26476.11
+    },
+    {
+      "id": 3,
+      "name": "cyrus PENDERGAST",
+      "work": "ForeTrust",
+      "email": "cyrus.pendergast@foretrust.info",
+      "dob": "1919",
+      "address": "88 Highland Drive",
+      "city": "Toronto",
+      "optedin": true
+      "salary": 11020
+      "float": 13815.75
+    },
+    {
+      "id": 4,
+      "name": "lorelei LEATH",
+      "work": "Celmax",
+      "email": "lorelei.leath@celmax.gov",
+      "dob": "1923",
+      "address": "65 Haredale Road",
+      "city": "Chicago",
+      "optedin": false
+      "salary": 94701
+      "float": 34510.21
+    }
+]
+

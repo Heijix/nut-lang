@@ -1,0 +1,63 @@
+[
+    {
+      "id": 0,
+      "name": "chloe CONNOR",
+      "work": "Thermolock",
+      "email": "chloe.connor@thermolock.name",
+      "dob": "1966",
+      "address": "30 Piermont Drive",
+      "city": "Sheffield",
+      "optedin": false
+      "salary": 59419
+      "float": 41140.62
+    },
+    {
+      "id": 1,
+      "name": "benito PLEIMAN",
+      "work": "Keycast",
+      "email": "benito.pleiman@keycast.club",
+      "dob": "1934",
+      "address": "11 Sawmill Lane",
+      "city": "Palmerston",
+      "optedin": false
+      "salary": 40305
+      "float": 40309.79
+    },
+    {
+      "id": 2,
+      "name": "jetta MULLENS",
+      "work": "Helixicon",
+      "email": "jetta.mullens@helixicon.gov",
+      "dob": "1949",
+      "address": "82 Crockett Street",
+      "city": "Portsmouth",
+      "optedin": true
+      "salary": 89666
+      "float": 33380.78
+    },
+    {
+      "id": 3,
+      "name": "travis COOLIDGE",
+      "work": "Templatek",
+      "email": "travis.coolidge@templatek.com",
+      "dob": "1974",
+      "address": "3 Crockett Street",
+      "city": "Columbia",
+      "optedin": true
+      "salary": 14372
+      "float": 44703.12
+    },
+    {
+      "id": 4,
+      "name": "haley FINN",
+      "work": "Sealine",
+      "email": "haley.finn@sealine.net",
+      "dob": "1928",
+      "address": "29 Radcliffe Road",
+      "city": "Lewisburg",
+      "optedin": true
+      "salary": 92033
+      "float": 25478.21
+    }
+]
+

@@ -1,0 +1,63 @@
+[
+    {
+      "id": 0,
+      "name": "layla PAQUETTE",
+      "work": "FastFreight",
+      "email": "layla.paquette@fastfreight.com",
+      "dob": "1984",
+      "address": "93 Hunter Street",
+      "city": "Bakersfield",
+      "optedin": true
+      "salary": 32105
+      "float": 36163.68
+    },
+    {
+      "id": 1,
+      "name": "warren CARTER",
+      "work": "NitroSystems",
+      "email": "warren.carter@nitrosystems.com",
+      "dob": "1946",
+      "address": "74 Berkeley Street",
+      "city": "Dallas",
+      "optedin": true
+      "salary": 71243
+      "float": 19255.75
+    },
+    {
+      "id": 2,
+      "name": "cory BRIER",
+      "work": "FastMart",
+      "email": "cory.brier@fastmart.club",
+      "dob": "1918",
+      "address": "32 Sherman Road",
+      "city": "Oxford",
+      "optedin": true
+      "salary": 91225
+      "float": 46430.88
+    },
+    {
+      "id": 3,
+      "name": "eleanore HANCOCK",
+      "work": "Optiplex",
+      "email": "eleanore.hancock@optiplex.org",
+      "dob": "1943",
+      "address": "85 Lake Drive",
+      "city": "Wellington",
+      "optedin": false
+      "salary": 70109
+      "float": 49156.37
+    },
+    {
+      "id": 4,
+      "name": "brian GOUDY",
+      "work": "Viewtopia",
+      "email": "brian.goudy@viewtopia.com",
+      "dob": "1982",
+      "address": "63 Windsor Avenue",
+      "city": "Halifax",
+      "optedin": false
+      "salary": 50497
+      "float": 48006.05
+    }
+]
+

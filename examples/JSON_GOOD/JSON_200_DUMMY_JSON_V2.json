@@ -1,0 +1,63 @@
+[
+    {
+      "id": 0,
+      "name": "mitch LENIHAN",
+      "work": "QuadNet",
+      "email": "mitch.lenihan@quadnet.club",
+      "dob": "1911",
+      "address": "23 Haredale Road",
+      "city": "Tacoma",
+      "optedin": false
+      "salary": 18104
+      "float": 33437.65
+    },
+    {
+      "id": 1,
+      "name": "drew MIERS",
+      "work": "Cryosoft",
+      "email": "drew.miers@cryosoft.me",
+      "dob": "1980",
+      "address": "44 Highland Drive",
+      "city": "Burwood",
+      "optedin": false
+      "salary": 70420
+      "float": 31061.52
+    },
+    {
+      "id": 2,
+      "name": "cyrus PICKERING",
+      "work": "Polygan",
+      "email": "cyrus.pickering@polygan.eu",
+      "dob": "1955",
+      "address": "37 Mercer Street",
+      "city": "Dayton",
+      "optedin": false
+      "salary": 37967
+      "float": 39728.56
+    },
+    {
+      "id": 3,
+      "name": "rosanne LEATH",
+      "work": "Cameratek",
+      "email": "rosanne.leath@cameratek.name",
+      "dob": "1900",
+      "address": "9 Longford Crescent",
+      "city": "Fairfield",
+      "optedin": true
+      "salary": 44944
+      "float": 41195.33
+    },
+    {
+      "id": 4,
+      "name": "grace WHITE",
+      "work": "SkyCenta",
+      "email": "grace.white@skycenta.xyz",
+      "dob": "1903",
+      "address": "28 Hill Street",
+      "city": "Columbia",
+      "optedin": false
+      "salary": 25701
+      "float": 34503.53
+    }
+]
+

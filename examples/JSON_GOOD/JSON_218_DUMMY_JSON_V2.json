@@ -1,0 +1,63 @@
+[
+    {
+      "id": 0,
+      "name": "lyle ZOBEL",
+      "work": "Dynalab",
+      "email": "lyle.zobel@dynalab.org",
+      "dob": "1997",
+      "address": "15 Hudson Street",
+      "city": "Hartford",
+      "optedin": true
+      "salary": 60044
+      "float": 33702.76
+    },
+    {
+      "id": 1,
+      "name": "elaine CADENA",
+      "work": "Infracom",
+      "email": "elaine.cadena@infracom.mobi",
+      "dob": "1925",
+      "address": "82 Sterling Street",
+      "city": "Northampton",
+      "optedin": true
+      "salary": 207
+      "float": 19632.56
+    },
+    {
+      "id": 2,
+      "name": "lance KELSEY",
+      "work": "Ulogica",
+      "email": "lance.kelsey@ulogica.gov",
+      "dob": "1922",
+      "address": "68 Alexander Avenue",
+      "city": "Coventry",
+      "optedin": true
+      "salary": 23007
+      "float": 10911.10
+    },
+    {
+      "id": 3,
+      "name": "rico PICKERING",
+      "work": "Storex",
+      "email": "rico.pickering@storex.net",
+      "dob": "1911",
+      "address": "88 Beechmont Parkway",
+      "city": "Perth",
+      "optedin": false
+      "salary": 43693
+      "float": 47888.42
+    },
+    {
+      "id": 4,
+      "name": "haydee KILMER",
+      "work": "Kancom",
+      "email": "haydee.kilmer@kancom.mobi",
+      "dob": "1934",
+      "address": "10 Ridgewood Drive",
+      "city": "Newport",
+      "optedin": true
+      "salary": 81877
+      "float": 45371.39
+    }
+]
+

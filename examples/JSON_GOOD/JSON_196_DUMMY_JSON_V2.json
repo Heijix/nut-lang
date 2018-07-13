@@ -1,0 +1,63 @@
+[
+    {
+      "id": 0,
+      "name": "madeleine NEAL",
+      "work": "Iridimax",
+      "email": "madeleine.neal@iridimax.gov",
+      "dob": "1956",
+      "address": "57 Hill Street",
+      "city": "Oakleigh",
+      "optedin": true
+      "salary": 33062
+      "float": 32260.81
+    },
+    {
+      "id": 1,
+      "name": "stephen HELLAND",
+      "work": "VenStrategy",
+      "email": "stephen.helland@venstrategy.gov",
+      "dob": "1987",
+      "address": "8 Appleton Street",
+      "city": "Toronto",
+      "optedin": true
+      "salary": 74796
+      "float": 12229.98
+    },
+    {
+      "id": 2,
+      "name": "grace WEBSTER",
+      "work": "Infracom",
+      "email": "grace.webster@infracom.gov",
+      "dob": "1966",
+      "address": "6 Fuller Road",
+      "city": "Hastings",
+      "optedin": true
+      "salary": 42706
+      "float": 18160.92
+    },
+    {
+      "id": 3,
+      "name": "lance MIERS",
+      "work": "SkyCenta",
+      "email": "lance.miers@skycenta.org",
+      "dob": "1981",
+      "address": "61 Orchard Road",
+      "city": "Dover",
+      "optedin": false
+      "salary": 51117
+      "float": 24964.72
+    },
+    {
+      "id": 4,
+      "name": "cedric SEAL",
+      "work": "Conixco",
+      "email": "cedric.seal@conixco.gov",
+      "dob": "1942",
+      "address": "17 Paxton Street",
+      "city": "Oxford",
+      "optedin": true
+      "salary": 65030
+      "float": 45209.39
+    }
+]
+

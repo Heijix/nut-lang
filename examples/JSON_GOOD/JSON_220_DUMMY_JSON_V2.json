@@ -1,0 +1,63 @@
+[
+    {
+      "id": 0,
+      "name": "brian CADENA",
+      "work": "DynaAir",
+      "email": "brian.cadena@dynaair.me",
+      "dob": "1907",
+      "address": "78 Chester Square",
+      "city": "Hobart",
+      "optedin": false
+      "salary": 46089
+      "float": 21001.11
+    },
+    {
+      "id": 1,
+      "name": "warren FREEMAN",
+      "work": "Connic",
+      "email": "warren.freeman@connic.eu",
+      "dob": "1994",
+      "address": "51 Green Street",
+      "city": "Sudbury",
+      "optedin": false
+      "salary": 26617
+      "float": 12240.01
+    },
+    {
+      "id": 2,
+      "name": "vaughn CORREA",
+      "work": "Forecore",
+      "email": "vaughn.correa@forecore.eu",
+      "dob": "1971",
+      "address": "34 Seaside Drive",
+      "city": "Rochester",
+      "optedin": true
+      "salary": 47182
+      "float": 31200.51
+    },
+    {
+      "id": 3,
+      "name": "vaughn HIGGINS",
+      "work": "Conixco",
+      "email": "vaughn.higgins@conixco.me",
+      "dob": "1906",
+      "address": "46 Cottontail Road",
+      "city": "Nottingham",
+      "optedin": true
+      "salary": 47382
+      "float": 43250.40
+    },
+    {
+      "id": 4,
+      "name": "rickey HELLAND",
+      "work": "Unilogic",
+      "email": "rickey.helland@unilogic.xyz",
+      "dob": "1985",
+      "address": "44 Foster Walk",
+      "city": "Portland",
+      "optedin": false
+      "salary": 28087
+      "float": 28050.37
+    }
+]
+

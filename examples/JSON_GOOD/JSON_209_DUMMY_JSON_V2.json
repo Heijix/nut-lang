@@ -1,0 +1,63 @@
+[
+    {
+      "id": 0,
+      "name": "emma HOTTLE",
+      "work": "Thermolock",
+      "email": "emma.hottle@thermolock.me",
+      "dob": "1953",
+      "address": "62 Moreland Street",
+      "city": "Halifax",
+      "optedin": false
+      "salary": 94101
+      "float": 11656.63
+    },
+    {
+      "id": 1,
+      "name": "kurt CASTLEMAN",
+      "work": "Helixicon",
+      "email": "kurt.castleman@helixicon.me",
+      "dob": "1946",
+      "address": "6 Berkeley Street",
+      "city": "Norfolk",
+      "optedin": true
+      "salary": 64387
+      "float": 16421.68
+    },
+    {
+      "id": 2,
+      "name": "chloe CADENA",
+      "work": "Superwire",
+      "email": "chloe.cadena@superwire.net",
+      "dob": "1993",
+      "address": "64 Faraday Street",
+      "city": "London",
+      "optedin": false
+      "salary": 32126
+      "float": 26294.72
+    },
+    {
+      "id": 3,
+      "name": "juliana HELLAND",
+      "work": "Coolinga",
+      "email": "juliana.helland@coolinga.eu",
+      "dob": "1961",
+      "address": "34 Crawford Street",
+      "city": "Boston",
+      "optedin": true
+      "salary": 83128
+      "float": 46737.09
+    },
+    {
+      "id": 4,
+      "name": "madelyn GAMBLE",
+      "work": "Solexis",
+      "email": "madelyn.gamble@solexis.eu",
+      "dob": "1949",
+      "address": "31 Grosvenor Square",
+      "city": "Fairfield",
+      "optedin": true
+      "salary": 25351
+      "float": 10892.52
+    }
+]
+

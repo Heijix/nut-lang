@@ -1,0 +1,63 @@
+[
+    {
+      "id": 0,
+      "name": "raymond WINTER",
+      "work": "StrategyLine",
+      "email": "raymond.winter@strategyline.org",
+      "dob": "1918",
+      "address": "89 Seaside Drive",
+      "city": "Toledo",
+      "optedin": true
+      "salary": 20313
+      "float": 40036.21
+    },
+    {
+      "id": 1,
+      "name": "austin HELLAND",
+      "work": "Optiplex",
+      "email": "austin.helland@optiplex.eu",
+      "dob": "1915",
+      "address": "13 Alexander Avenue",
+      "city": "Telford",
+      "optedin": true
+      "salary": 25339
+      "float": 31265.89
+    },
+    {
+      "id": 2,
+      "name": "yuri BRADBURY",
+      "work": "Maxcast",
+      "email": "yuri.bradbury@maxcast.com",
+      "dob": "1990",
+      "address": "73 Mercer Street",
+      "city": "Chicago",
+      "optedin": false
+      "salary": 87175
+      "float": 39547.73
+    },
+    {
+      "id": 3,
+      "name": "craig DUNHAM",
+      "work": "ForeTrust",
+      "email": "craig.dunham@foretrust.biz",
+      "dob": "1941",
+      "address": "2 Hartswood Road",
+      "city": "Birmingham",
+      "optedin": false
+      "salary": 32833
+      "float": 43232.18
+    },
+    {
+      "id": 4,
+      "name": "lyn HUNDT",
+      "work": "Coolinga",
+      "email": "lyn.hundt@coolinga.eu",
+      "dob": "1951",
+      "address": "53 Mulholland Drive",
+      "city": "Melbourne",
+      "optedin": true
+      "salary": 85213
+      "float": 48463.90
+    }
+]
+

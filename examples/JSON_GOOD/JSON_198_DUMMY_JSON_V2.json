@@ -1,0 +1,63 @@
+[
+    {
+      "id": 0,
+      "name": "francis BACKER",
+      "work": "DynaAir",
+      "email": "francis.backer@dynaair.net",
+      "dob": "1976",
+      "address": "78 Moreland Street",
+      "city": "Miami",
+      "optedin": false
+      "salary": 51183
+      "float": 38205.77
+    },
+    {
+      "id": 1,
+      "name": "austin CARROLL",
+      "work": "QuadNet",
+      "email": "austin.carroll@quadnet.com",
+      "dob": "1949",
+      "address": "22 Pearl Street",
+      "city": "Charleston",
+      "optedin": false
+      "salary": 51819
+      "float": 16371.76
+    },
+    {
+      "id": 2,
+      "name": "dannielle CHAPMAN",
+      "work": "Dynaroc",
+      "email": "dannielle.chapman@dynaroc.club",
+      "dob": "1974",
+      "address": "3 Wooster Road",
+      "city": "Danbury",
+      "optedin": false
+      "salary": 3973
+      "float": 21015.42
+    },
+    {
+      "id": 3,
+      "name": "emma REBELO",
+      "work": "MultiServ",
+      "email": "emma.rebelo@multiserv.club",
+      "dob": "1979",
+      "address": "40 Warner Street",
+      "city": "Portsmouth",
+      "optedin": false
+      "salary": 18902
+      "float": 14984.36
+    },
+    {
+      "id": 4,
+      "name": "alexa OLDMAN",
+      "work": "Kancom",
+      "email": "alexa.oldman@kancom.club",
+      "dob": "1901",
+      "address": "21 Mercer Street",
+      "city": "Brighton",
+      "optedin": false
+      "salary": 709
+      "float": 40946.59
+    }
+]
+

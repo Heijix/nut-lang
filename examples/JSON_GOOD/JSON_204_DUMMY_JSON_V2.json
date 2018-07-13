@@ -1,0 +1,63 @@
+[
+    {
+      "id": 0,
+      "name": "michael CARTER",
+      "work": "DynaAir",
+      "email": "michael.carter@dynaair.club",
+      "dob": "1930",
+      "address": "96 Paxton Street",
+      "city": "Fresno",
+      "optedin": false
+      "salary": 62150
+      "float": 14895.55
+    },
+    {
+      "id": 1,
+      "name": "tyler FRIEDRICH",
+      "work": "GrafixMedia",
+      "email": "tyler.friedrich@grafixmedia.xyz",
+      "dob": "1974",
+      "address": "80 Radcliffe Road",
+      "city": "Manchester",
+      "optedin": false
+      "salary": 21563
+      "float": 21393.91
+    },
+    {
+      "id": 2,
+      "name": "alejandro CASTLEMAN",
+      "work": "Kancom",
+      "email": "alejandro.castleman@kancom.me",
+      "dob": "1993",
+      "address": "80 Wooster Road",
+      "city": "Tacoma",
+      "optedin": true
+      "salary": 51548
+      "float": 40954.18
+    },
+    {
+      "id": 3,
+      "name": "max KEESEE",
+      "work": "Acousticom",
+      "email": "max.keesee@acousticom.name",
+      "dob": "1977",
+      "address": "92 Wandle Street",
+      "city": "Walkerville",
+      "optedin": false
+      "salary": 52980
+      "float": 20155.44
+    },
+    {
+      "id": 4,
+      "name": "vaughn DROLET",
+      "work": "WestGate",
+      "email": "vaughn.drolet@westgate.com",
+      "dob": "1972",
+      "address": "46 Mercer Street",
+      "city": "Auckland",
+      "optedin": true
+      "salary": 96547
+      "float": 49403.78
+    }
+]
+
