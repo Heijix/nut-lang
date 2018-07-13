@@ -4,6 +4,14 @@ This is the main repository for the nut language.
 
 Make sure that the way you code the library will be easy-to-push to given package manager (like pip).
 
+If you want to see the nut documentation, do the following:
+```
+git clone https://github.com/Heijix/nut-lang.git
+cd nut-lang
+make deploy_dev_doc
+# Then go to your browser at address localhost:42420
+```
+
 ## Nut Tree Repository
 
 ```bash

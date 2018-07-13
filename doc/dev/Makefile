@@ -1,5 +1,4 @@
-
-.PHONY: build_image run_shell run
+.PHONY: build_image run_shell run deploy_local remove_deploy
 
 build_image:
 	docker build \
@@ -18,11 +17,15 @@ run: build_image
 		nut/doc_builder
 
 deploy_local: run
-	docker run -d -p 8080:80 \
+	docker run -d -p 42420:80 \
 		--name doc_nut \
 		-v `pwd`/sphinx/_build/html:/usr/share/nginx/html:ro \
 		nginx
+	@echo "Go to localhost:42420 to see the Nut doc"
 
 remove_deploy:
 	docker stop doc_nut
 	docker rm doc_nut
+
+clean:
+	rm -rf sphinx/_build
