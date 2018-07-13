@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Myong Freeman",
+      "work": "Opticast",
+      "email": "myong.freeman@opticast.biz",
+      "dob": "1938",
+      "address": "67 Radcliffe Road",
+      "city": "Perth",
+      "optedin": false
+    },
+    {
+      "id": 1,
+      "name": "Richelle Bourne",
+      "work": "Westercom",
+      "email": "richelle.bourne@westercom.club",
+      "dob": "1934",
+      "address": "37 Wooster Road",
+      "city": "Lancaster",
+      "optedin": true
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": 48.58,
+    "y": 19.70
+  },
+  "price": "$67,448"
+}
+

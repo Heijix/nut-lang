@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Brian Correa",
+      "work": "CoreRobotics",
+      "email": "brian.correa@corerobotics.net",
+      "dob": "1954",
+      "address": "74 Templeton Parkway",
+      "city": "Rockhampton",
+      "optedin": true
+    },
+    {
+      "id": 1,
+      "name": "Kirstie Freeman",
+      "work": "CoreMax",
+      "email": "kirstie.freeman@coremax.info",
+      "dob": "1929",
+      "address": "92 Glendale Road",
+      "city": "Reno",
+      "optedin": false
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": 29.61,
+    "y": 22.26
+  },
+  "price": "$18,724"
+}
+

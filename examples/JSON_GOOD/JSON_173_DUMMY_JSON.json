@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Leanne Hyder",
+      "work": "Dalserve",
+      "email": "leanne.hyder@dalserve.eu",
+      "dob": "1901",
+      "address": "34 Faraday Street",
+      "city": "Reno",
+      "optedin": true
+    },
+    {
+      "id": 1,
+      "name": "Rikki Pleiman",
+      "work": "Thermatek",
+      "email": "rikki.pleiman@thermatek.club",
+      "dob": "1901",
+      "address": "77 Pembrooke Street",
+      "city": "Bradford",
+      "optedin": false
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": 45.47,
+    "y": 20.60
+  },
+  "price": "$14,707"
+}
+

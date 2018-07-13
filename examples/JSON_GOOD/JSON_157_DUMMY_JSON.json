@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Dori Cumbie",
+      "work": "OmniTouch",
+      "email": "dori.cumbie@omnitouch.mobi",
+      "dob": "1952",
+      "address": "51 Chester Square",
+      "city": "Greenville",
+      "optedin": false
+    },
+    {
+      "id": 1,
+      "name": "Jenna Leath",
+      "work": "Seelogic",
+      "email": "jenna.leath@seelogic.eu",
+      "dob": "1902",
+      "address": "13 Sterling Street",
+      "city": "Durham",
+      "optedin": true
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": 4.34,
+    "y": 8.56
+  },
+  "price": "$89,671"
+}
+

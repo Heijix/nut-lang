@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Cedric Rikard",
+      "work": "Maxcast",
+      "email": "cedric.rikard@maxcast.gov",
+      "dob": "1936",
+      "address": "71 Elm Street",
+      "city": "Boulder",
+      "optedin": false
+    },
+    {
+      "id": 1,
+      "name": "Joslyn Goudy",
+      "work": "Sunopia",
+      "email": "joslyn.goudy@sunopia.name",
+      "dob": "1984",
+      "address": "18 Hartswood Road",
+      "city": "Cleveland",
+      "optedin": true
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": 37.98,
+    "y": -9.38
+  },
+  "price": "$28,437"
+}
+

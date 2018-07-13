@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Hannah Cadena",
+      "work": "Hassifix",
+      "email": "hannah.cadena@hassifix.co",
+      "dob": "1966",
+      "address": "3 Arlington Road",
+      "city": "Bridgeport",
+      "optedin": true
+    },
+    {
+      "id": 1,
+      "name": "Lance White",
+      "work": "Haltheon",
+      "email": "lance.white@haltheon.co",
+      "dob": "1919",
+      "address": "9 Pitman Street",
+      "city": "Sacramento",
+      "optedin": true
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": 35.17,
+    "y": -22.61
+  },
+  "price": "$76,699"
+}
+

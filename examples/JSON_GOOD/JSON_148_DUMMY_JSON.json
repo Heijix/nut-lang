@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Kathy Jensen",
+      "work": "ForeTrust",
+      "email": "kathy.jensen@foretrust.eu",
+      "dob": "1987",
+      "address": "37 Sleepy Lane",
+      "city": "Durham",
+      "optedin": false
+    },
+    {
+      "id": 1,
+      "name": "Heath Starck",
+      "work": "CoreXTS",
+      "email": "heath.starck@corexts.info",
+      "dob": "1979",
+      "address": "52 Rivington Street",
+      "city": "Boston",
+      "optedin": false
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": -39.56,
+    "y": -12.44
+  },
+  "price": "$64,882"
+}
+

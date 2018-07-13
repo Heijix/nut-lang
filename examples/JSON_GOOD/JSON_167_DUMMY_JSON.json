@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Janett Brier",
+      "work": "CorpTek",
+      "email": "janett.brier@corptek.name",
+      "dob": "1938",
+      "address": "32 Buckley Street",
+      "city": "Frankston",
+      "optedin": true
+    },
+    {
+      "id": 1,
+      "name": "Adam Bourne",
+      "work": "Helixicon",
+      "email": "adam.bourne@helixicon.edu",
+      "dob": "1930",
+      "address": "20 Mount Street",
+      "city": "Newcastle",
+      "optedin": false
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": -41.85,
+    "y": 23.05
+  },
+  "price": "$84,520"
+}
+

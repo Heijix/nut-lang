@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Cecilia Finn",
+      "work": "Infracom",
+      "email": "cecilia.finn@infracom.me",
+      "dob": "1990",
+      "address": "6 Stockton Lane",
+      "city": "Adelaide",
+      "optedin": true
+    },
+    {
+      "id": 1,
+      "name": "Heath Castleman",
+      "work": "Ulogica",
+      "email": "heath.castleman@ulogica.com",
+      "dob": "1940",
+      "address": "84 Highland Drive",
+      "city": "Oakland",
+      "optedin": true
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": -30.75,
+    "y": 18.00
+  },
+  "price": "$76,216"
+}
+

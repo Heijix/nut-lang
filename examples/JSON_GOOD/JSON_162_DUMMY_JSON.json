@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Kirstie Cappel",
+      "work": "Qualcore",
+      "email": "kirstie.cappel@qualcore.net",
+      "dob": "1931",
+      "address": "70 Stockton Lane",
+      "city": "Richmond",
+      "optedin": true
+    },
+    {
+      "id": 1,
+      "name": "Grace Fennell",
+      "work": "Coolinga",
+      "email": "grace.fennell@coolinga.name",
+      "dob": "1954",
+      "address": "28 Emmet Road",
+      "city": "Danbury",
+      "optedin": false
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": 47.23,
+    "y": -2.49
+  },
+  "price": "$75,466"
+}
+

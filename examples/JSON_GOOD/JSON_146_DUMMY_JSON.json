@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Brian Freeman",
+      "work": "Polycore",
+      "email": "brian.freeman@polycore.xyz",
+      "dob": "1945",
+      "address": "51 Hill Street",
+      "city": "Perth",
+      "optedin": false
+    },
+    {
+      "id": 1,
+      "name": "Leanne Bradbury",
+      "work": "Nitrocam",
+      "email": "leanne.bradbury@nitrocam.com",
+      "dob": "1997",
+      "address": "12 Pearl Street",
+      "city": "York",
+      "optedin": false
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": -17.05,
+    "y": -0.32
+  },
+  "price": "$61,198"
+}
+

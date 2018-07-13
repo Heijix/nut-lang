@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Myong Goudy",
+      "work": "Helixicon",
+      "email": "myong.goudy@helixicon.name",
+      "dob": "1988",
+      "address": "99 Sawmill Lane",
+      "city": "Irvine",
+      "optedin": true
+    },
+    {
+      "id": 1,
+      "name": "Aiden Pettey",
+      "work": "FastFreight",
+      "email": "aiden.pettey@fastfreight.xyz",
+      "dob": "1939",
+      "address": "20 Clarendon Street",
+      "city": "Southampton",
+      "optedin": true
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": -43.91,
+    "y": 14.27
+  },
+  "price": "$68,983"
+}
+

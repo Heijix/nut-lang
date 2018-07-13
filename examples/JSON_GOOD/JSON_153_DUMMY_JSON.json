@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Lyle Rikard",
+      "work": "Citisys",
+      "email": "lyle.rikard@citisys.club",
+      "dob": "1994",
+      "address": "6 Sawmill Lane",
+      "city": "Irvine",
+      "optedin": true
+    },
+    {
+      "id": 1,
+      "name": "Cory Rebelo",
+      "work": "Zatheon",
+      "email": "cory.rebelo@zatheon.edu",
+      "dob": "1993",
+      "address": "88 Sherman Road",
+      "city": "Dundee",
+      "optedin": true
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": -40.32,
+    "y": -1.91
+  },
+  "price": "$12,613"
+}
+

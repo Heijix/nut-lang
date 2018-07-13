@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Stephen Sprowl",
+      "work": "PeerSys",
+      "email": "stephen.sprowl@peersys.eu",
+      "dob": "1955",
+      "address": "99 Haredale Road",
+      "city": "Beaverton",
+      "optedin": false
+    },
+    {
+      "id": 1,
+      "name": "Lyle Schaefer",
+      "work": "Storex",
+      "email": "lyle.schaefer@storex.com",
+      "dob": "1944",
+      "address": "49 Sterling Street",
+      "city": "Newcastle",
+      "optedin": false
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": 42.86,
+    "y": 9.97
+  },
+  "price": "$28,532"
+}
+

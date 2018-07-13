@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Heath Carter",
+      "work": "DynaAir",
+      "email": "heath.carter@dynaair.eu",
+      "dob": "1914",
+      "address": "85 Bramble Lane",
+      "city": "Kingston",
+      "optedin": true
+    },
+    {
+      "id": 1,
+      "name": "Jamie Starck",
+      "work": "Westercom",
+      "email": "jamie.starck@westercom.net",
+      "dob": "1969",
+      "address": "93 Seaside Drive",
+      "city": "Bangor",
+      "optedin": true
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": 38.49,
+    "y": -10.64
+  },
+  "price": "$74,262"
+}
+

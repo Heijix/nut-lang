@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Austin Higgins",
+      "work": "Storex",
+      "email": "austin.higgins@storex.co",
+      "dob": "1912",
+      "address": "12 Canal Street",
+      "city": "Greenville",
+      "optedin": false
+    },
+    {
+      "id": 1,
+      "name": "Dannielle Cadena",
+      "work": "Kancom",
+      "email": "dannielle.cadena@kancom.biz",
+      "dob": "1972",
+      "address": "82 Tower Lane",
+      "city": "Sheffield",
+      "optedin": false
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": -2.40,
+    "y": 22.26
+  },
+  "price": "$37,500"
+}
+

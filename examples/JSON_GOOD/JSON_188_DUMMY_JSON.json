@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Adam Bradbury",
+      "work": "GrafixMedia",
+      "email": "adam.bradbury@grafixmedia.gov",
+      "dob": "1972",
+      "address": "9 Harvard Avenue",
+      "city": "Canterbury",
+      "optedin": true
+    },
+    {
+      "id": 1,
+      "name": "Olivia Porras",
+      "work": "Kancom",
+      "email": "olivia.porras@kancom.me",
+      "dob": "1921",
+      "address": "56 Buckfield Lane",
+      "city": "Manchester",
+      "optedin": false
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": 39.55,
+    "y": -9.19
+  },
+  "price": "$32,140"
+}
+

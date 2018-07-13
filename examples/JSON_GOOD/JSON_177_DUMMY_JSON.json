@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Rickey Krumm",
+      "work": "Baramax",
+      "email": "rickey.krumm@baramax.edu",
+      "dob": "1914",
+      "address": "14 Main Street",
+      "city": "Portsmouth",
+      "optedin": true
+    },
+    {
+      "id": 1,
+      "name": "Raylene Paschall",
+      "work": "Quadtek",
+      "email": "raylene.paschall@quadtek.biz",
+      "dob": "1984",
+      "address": "94 Brook Street",
+      "city": "London",
+      "optedin": false
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": 8.20,
+    "y": -14.40
+  },
+  "price": "$48,031"
+}
+

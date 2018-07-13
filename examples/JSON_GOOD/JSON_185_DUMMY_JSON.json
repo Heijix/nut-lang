@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Rickey Castleman",
+      "work": "Polygan",
+      "email": "rickey.castleman@polygan.xyz",
+      "dob": "1914",
+      "address": "90 Rivington Street",
+      "city": "Bakersfield",
+      "optedin": false
+    },
+    {
+      "id": 1,
+      "name": "Rolf White",
+      "work": "Keysoft",
+      "email": "rolf.white@keysoft.me",
+      "dob": "1988",
+      "address": "61 Canal Street",
+      "city": "Dundee",
+      "optedin": false
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": 34.44,
+    "y": 18.32
+  },
+  "price": "$57,065"
+}
+

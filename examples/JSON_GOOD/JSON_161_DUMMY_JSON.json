@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Anton Backer",
+      "work": "Pancast",
+      "email": "anton.backer@pancast.gov",
+      "dob": "1980",
+      "address": "78 Winston Road",
+      "city": "Vancouver",
+      "optedin": false
+    },
+    {
+      "id": 1,
+      "name": "Layla Tuck",
+      "work": "Freecast",
+      "email": "layla.tuck@freecast.edu",
+      "dob": "1954",
+      "address": "53 Colwood Place",
+      "city": "York",
+      "optedin": false
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": -15.40,
+    "y": -18.44
+  },
+  "price": "$99,910"
+}
+

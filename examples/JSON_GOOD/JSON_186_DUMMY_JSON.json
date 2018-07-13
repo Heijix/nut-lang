@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Haley Turner",
+      "work": "Sealine",
+      "email": "haley.turner@sealine.com",
+      "dob": "1978",
+      "address": "80 Winchester Drive",
+      "city": "Sudbury",
+      "optedin": true
+    },
+    {
+      "id": 1,
+      "name": "Myong Krumm",
+      "work": "Terralabs",
+      "email": "myong.krumm@terralabs.eu",
+      "dob": "1984",
+      "address": "30 Bramble Lane",
+      "city": "London",
+      "optedin": true
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": -10.52,
+    "y": 17.88
+  },
+  "price": "$94,756"
+}
+

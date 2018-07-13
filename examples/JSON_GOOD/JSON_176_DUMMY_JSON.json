@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Benito Woodrum",
+      "work": "Qualcore",
+      "email": "benito.woodrum@qualcore.biz",
+      "dob": "1981",
+      "address": "35 Radcliffe Road",
+      "city": "Denver",
+      "optedin": true
+    },
+    {
+      "id": 1,
+      "name": "Cyrus Cadena",
+      "work": "Acousticom",
+      "email": "cyrus.cadena@acousticom.name",
+      "dob": "1953",
+      "address": "72 Sherman Road",
+      "city": "Detroit",
+      "optedin": true
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": -23.69,
+    "y": -21.90
+  },
+  "price": "$46,599"
+}
+

@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Rikki Risley",
+      "work": "Terrasys",
+      "email": "rikki.risley@terrasys.co",
+      "dob": "1933",
+      "address": "6 Clemont Street",
+      "city": "Halifax",
+      "optedin": true
+    },
+    {
+      "id": 1,
+      "name": "Layla Schaefer",
+      "work": "Optiplex",
+      "email": "layla.schaefer@optiplex.biz",
+      "dob": "1967",
+      "address": "91 Harvard Avenue",
+      "city": "Hillboro",
+      "optedin": false
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": 31.03,
+    "y": -12.35
+  },
+  "price": "$9,276"
+}
+

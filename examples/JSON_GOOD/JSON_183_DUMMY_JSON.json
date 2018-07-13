@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Victoria Shelly",
+      "work": "Seelogic",
+      "email": "victoria.shelly@seelogic.edu",
+      "dob": "1941",
+      "address": "35 Bramble Lane",
+      "city": "Frankston",
+      "optedin": true
+    },
+    {
+      "id": 1,
+      "name": "Florance Paquette",
+      "work": "Tomiatech",
+      "email": "florance.paquette@tomiatech.xyz",
+      "dob": "1915",
+      "address": "49 Rutherford Street",
+      "city": "Cambridge",
+      "optedin": true
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": 27.76,
+    "y": -22.28
+  },
+  "price": "$73,324"
+}
+

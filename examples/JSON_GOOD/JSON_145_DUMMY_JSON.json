@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Ivan Miers",
+      "work": "Terrasys",
+      "email": "ivan.miers@terrasys.biz",
+      "dob": "1942",
+      "address": "68 Bramble Lane",
+      "city": "Waterbury",
+      "optedin": false
+    },
+    {
+      "id": 1,
+      "name": "Victoria Kilmer",
+      "work": "Amsquare",
+      "email": "victoria.kilmer@amsquare.club",
+      "dob": "1987",
+      "address": "72 Winston Road",
+      "city": "Norfolk",
+      "optedin": true
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": 23.80,
+    "y": -2.46
+  },
+  "price": "$29,332"
+}
+

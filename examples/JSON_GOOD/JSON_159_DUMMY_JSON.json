@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Myong Stine",
+      "work": "Westercom",
+      "email": "myong.stine@westercom.biz",
+      "dob": "1984",
+      "address": "50 Hunt Street",
+      "city": "Portsmouth",
+      "optedin": true
+    },
+    {
+      "id": 1,
+      "name": "Marcus Castleman",
+      "work": "Ulogica",
+      "email": "marcus.castleman@ulogica.co",
+      "dob": "1904",
+      "address": "9 Fairmont Avenue",
+      "city": "Dallas",
+      "optedin": false
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": 32.05,
+    "y": 8.39
+  },
+  "price": "$13,491"
+}
+

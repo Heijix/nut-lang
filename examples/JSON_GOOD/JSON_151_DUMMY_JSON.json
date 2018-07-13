@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Stephen Paquette",
+      "work": "DuoServe",
+      "email": "stephen.paquette@duoserve.org",
+      "dob": "1993",
+      "address": "64 Maple Street",
+      "city": "Columbia",
+      "optedin": false
+    },
+    {
+      "id": 1,
+      "name": "Benito Cadena",
+      "work": "TurboSystems",
+      "email": "benito.cadena@turbosystems.me",
+      "dob": "1977",
+      "address": "94 Elm Street",
+      "city": "Seattle",
+      "optedin": false
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": -12.91,
+    "y": 23.70
+  },
+  "price": "$2,139"
+}
+

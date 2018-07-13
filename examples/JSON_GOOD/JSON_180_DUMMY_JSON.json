@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Lynetta Rebelo",
+      "work": "Dynalab",
+      "email": "lynetta.rebelo@dynalab.biz",
+      "dob": "1999",
+      "address": "32 Paxton Street",
+      "city": "Toronto",
+      "optedin": true
+    },
+    {
+      "id": 1,
+      "name": "Curtis Backer",
+      "work": "ForeTrust",
+      "email": "curtis.backer@foretrust.xyz",
+      "dob": "1927",
+      "address": "47 Clarendon Street",
+      "city": "Exeter",
+      "optedin": false
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": 37.07,
+    "y": -15.73
+  },
+  "price": "$67,218"
+}
+

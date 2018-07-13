@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Jetta Magby",
+      "work": "Unilogic",
+      "email": "jetta.magby@unilogic.org",
+      "dob": "1948",
+      "address": "59 Cottontail Road",
+      "city": "Birmingham",
+      "optedin": true
+    },
+    {
+      "id": 1,
+      "name": "Edward Stine",
+      "work": "Protheon",
+      "email": "edward.stine@protheon.club",
+      "dob": "1913",
+      "address": "45 Robinson Street",
+      "city": "Orlando",
+      "optedin": true
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": -0.24,
+    "y": -23.19
+  },
+  "price": "$10,444"
+}
+

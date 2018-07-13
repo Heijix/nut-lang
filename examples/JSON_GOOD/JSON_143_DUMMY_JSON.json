@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Selma Grieve",
+      "work": "TurboSystems",
+      "email": "selma.grieve@turbosystems.com",
+      "dob": "1960",
+      "address": "63 Haredale Road",
+      "city": "Lancaster",
+      "optedin": false
+    },
+    {
+      "id": 1,
+      "name": "Rikki Freeman",
+      "work": "TrueXT",
+      "email": "rikki.freeman@truext.biz",
+      "dob": "1909",
+      "address": "92 Hartswood Road",
+      "city": "Portsmouth",
+      "optedin": false
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": -21.08,
+    "y": 16.83
+  },
+  "price": "$17,226"
+}
+

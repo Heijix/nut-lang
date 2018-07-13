@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Max Webster",
+      "work": "Tecomix",
+      "email": "max.webster@tecomix.co",
+      "dob": "1935",
+      "address": "47 Elton Way",
+      "city": "Seattle",
+      "optedin": false
+    },
+    {
+      "id": 1,
+      "name": "Theo Oldman",
+      "work": "GrafixMedia",
+      "email": "theo.oldman@grafixmedia.mobi",
+      "dob": "1976",
+      "address": "69 Hartswood Road",
+      "city": "Richmond",
+      "optedin": true
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": -34.04,
+    "y": -23.39
+  },
+  "price": "$73,879"
+}
+

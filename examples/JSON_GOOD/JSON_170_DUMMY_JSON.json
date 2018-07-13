@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Olivia Krumm",
+      "work": "Nitrocam",
+      "email": "olivia.krumm@nitrocam.name",
+      "dob": "1944",
+      "address": "20 Blakeley Street",
+      "city": "Lewisburg",
+      "optedin": false
+    },
+    {
+      "id": 1,
+      "name": "Haydee Bourne",
+      "work": "OmniTouch",
+      "email": "haydee.bourne@omnitouch.gov",
+      "dob": "1994",
+      "address": "33 Pembrooke Street",
+      "city": "Norfolk",
+      "optedin": false
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": 9.83,
+    "y": -4.98
+  },
+  "price": "$37,002"
+}
+

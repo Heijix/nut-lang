@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Kurt Garling",
+      "work": "Cameratek",
+      "email": "kurt.garling@cameratek.me",
+      "dob": "1973",
+      "address": "35 Bramble Lane",
+      "city": "Danbury",
+      "optedin": true
+    },
+    {
+      "id": 1,
+      "name": "Florance Remus",
+      "work": "Cirpria",
+      "email": "florance.remus@cirpria.info",
+      "dob": "1938",
+      "address": "38 High Street",
+      "city": "Danbury",
+      "optedin": true
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": -44.79,
+    "y": -12.98
+  },
+  "price": "$54,100"
+}
+

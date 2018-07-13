@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Yuri Zobel",
+      "work": "Zatheon",
+      "email": "yuri.zobel@zatheon.com",
+      "dob": "1938",
+      "address": "17 Barret Street",
+      "city": "Baltimore",
+      "optedin": true
+    },
+    {
+      "id": 1,
+      "name": "Rosie Kilmer",
+      "work": "TrioSys",
+      "email": "rosie.kilmer@triosys.com",
+      "dob": "1906",
+      "address": "74 Haredale Road",
+      "city": "Charleston",
+      "optedin": false
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": -3.52,
+    "y": 13.49
+  },
+  "price": "$19,013"
+}
+

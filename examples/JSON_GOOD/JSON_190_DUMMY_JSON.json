@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Alexa Leath",
+      "work": "Unilogic",
+      "email": "alexa.leath@unilogic.net",
+      "dob": "1913",
+      "address": "73 Highland Drive",
+      "city": "Nottingham",
+      "optedin": true
+    },
+    {
+      "id": 1,
+      "name": "Lance Leath",
+      "work": "SmartSystems",
+      "email": "lance.leath@smartsystems.biz",
+      "dob": "1908",
+      "address": "83 Tavistock Place",
+      "city": "Vancouver",
+      "optedin": true
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": 13.11,
+    "y": -20.30
+  },
+  "price": "$4,859"
+}
+

@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Rikki Bickers",
+      "work": "Acousticom",
+      "email": "rikki.bickers@acousticom.mobi",
+      "dob": "1950",
+      "address": "86 Golden Lane",
+      "city": "Canterbury",
+      "optedin": false
+    },
+    {
+      "id": 1,
+      "name": "Gavin Garling",
+      "work": "VTGrafix",
+      "email": "gavin.garling@vtgrafix.eu",
+      "dob": "1925",
+      "address": "55 Baker Street",
+      "city": "Hillboro",
+      "optedin": true
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": -41.57,
+    "y": 7.06
+  },
+  "price": "$59,817"
+}
+

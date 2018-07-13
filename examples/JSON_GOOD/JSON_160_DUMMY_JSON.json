@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Isabelle Bourne",
+      "work": "SixtySix",
+      "email": "isabelle.bourne@sixtysix.edu",
+      "dob": "1934",
+      "address": "73 Fuller Road",
+      "city": "Manchester",
+      "optedin": false
+    },
+    {
+      "id": 1,
+      "name": "Haley Hottle",
+      "work": "FastFreight",
+      "email": "haley.hottle@fastfreight.club",
+      "dob": "1986",
+      "address": "99 Shaftsbury Avenue",
+      "city": "Southampton",
+      "optedin": true
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": -26.01,
+    "y": 16.84
+  },
+  "price": "$2,782"
+}
+

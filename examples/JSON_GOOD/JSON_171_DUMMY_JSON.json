@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "name": "Danny Cappel",
+      "work": "VenStrategy",
+      "email": "danny.cappel@venstrategy.xyz",
+      "dob": "1919",
+      "address": "55 Hartswood Road",
+      "city": "Toronto",
+      "optedin": false
+    },
+    {
+      "id": 1,
+      "name": "Susana Verde",
+      "work": "Pancast",
+      "email": "susana.verde@pancast.biz",
+      "dob": "1985",
+      "address": "42 Templeton Parkway",
+      "city": "Spokane",
+      "optedin": true
+    }
+  ],
+  "images": [
+    "img0.png",
+    "img1.png",
+    "img2.png"
+  ],
+  "coordinates": {
+    "x": -20.13,
+    "y": -7.99
+  },
+  "price": "$76,413"
+}
+
