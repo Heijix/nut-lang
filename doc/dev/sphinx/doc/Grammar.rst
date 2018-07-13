@@ -428,13 +428,17 @@ IG
 
 .. code-block:: none
 
-    object_root
-        Data_Type_Identifier _object
+    _root
+        _Data_Type_Identifier _Type_Root
 
-    Data_Type_Identifier
+    _Data_Type_Identifier
         None
         &[ id alias ]
         @
+
+    _Type_Root
+        _object
+        _array
 
 Changes with json
 ~~~~~~~~~~~~~~~~~
