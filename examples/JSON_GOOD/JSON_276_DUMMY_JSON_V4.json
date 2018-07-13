@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "myong PENDERGAST",
+      "email": "myong.pendergast@sixtysix.net",
+      "dob": "1965",
+      "address": "81 Foster Walk",
+      "city": "Detroit",
+      "optedin": true
+      "salary": 44148
+      "float": 25843.51
+    }
+}
+

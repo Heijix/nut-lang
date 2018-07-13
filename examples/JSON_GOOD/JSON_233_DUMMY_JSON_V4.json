@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "yuri MURPHY",
+      "email": "yuri.murphy@galcom.xyz",
+      "dob": "1967",
+      "address": "49 Lake Drive",
+      "city": "Danbury",
+      "optedin": true
+      "salary": 67477
+      "float": 34780.24
+    }
+}
+

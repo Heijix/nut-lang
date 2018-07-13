@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "lance LENIHAN",
+      "email": "lance.lenihan@seelogic.name",
+      "dob": "1999",
+      "address": "8 Berkeley Street",
+      "city": "Lancaster",
+      "optedin": true
+      "salary": 54702
+      "float": 35472.49
+    }
+}
+

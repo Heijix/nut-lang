@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "travis CAPPEL",
+      "email": "travis.cappel@dynalab.co",
+      "dob": "1913",
+      "address": "24 Hill Street",
+      "city": "Halifax",
+      "optedin": true
+      "salary": 67255
+      "float": 31429.64
+    }
+}
+

@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "adam HELLAND",
+      "email": "adam.helland@forecore.eu",
+      "dob": "1908",
+      "address": "23 Canal Street",
+      "city": "Oakland",
+      "optedin": false
+      "salary": 42104
+      "float": 15326.58
+    }
+}
+

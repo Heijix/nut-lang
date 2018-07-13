@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "kirstie MULDOON",
+      "email": "kirstie.muldoon@helixicon.me",
+      "dob": "1995",
+      "address": "74 Carter Street",
+      "city": "Columbia",
+      "optedin": false
+      "salary": 57139
+      "float": 46925.18
+    }
+}
+

@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "jenette SEABURY",
+      "email": "jenette.seabury@anaplex.eu",
+      "dob": "1992",
+      "address": "84 Marsham Street",
+      "city": "Portsmouth",
+      "optedin": true
+      "salary": 95087
+      "float": 47955.42
+    }
+}
+

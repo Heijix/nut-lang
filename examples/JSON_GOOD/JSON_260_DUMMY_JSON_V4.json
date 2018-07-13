@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "alejandro TUCK",
+      "email": "alejandro.tuck@strategyline.net",
+      "dob": "1992",
+      "address": "69 Brentwood Drive",
+      "city": "Hartford",
+      "optedin": false
+      "salary": 89877
+      "float": 35182.22
+    }
+}
+

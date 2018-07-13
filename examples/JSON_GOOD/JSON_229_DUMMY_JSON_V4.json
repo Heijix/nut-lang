@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "michelle STINE",
+      "email": "michelle.stine@ulogica.co",
+      "dob": "1997",
+      "address": "93 Templeton Parkway",
+      "city": "Hobart",
+      "optedin": true
+      "salary": 10979
+      "float": 29361.35
+    }
+}
+

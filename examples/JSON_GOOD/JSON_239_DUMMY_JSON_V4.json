@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "brian PULLMAN",
+      "email": "brian.pullman@eluxa.co",
+      "dob": "1969",
+      "address": "42 Coleman Avenue",
+      "city": "Dallas",
+      "optedin": true
+      "salary": 97816
+      "float": 38907.70
+    }
+}
+

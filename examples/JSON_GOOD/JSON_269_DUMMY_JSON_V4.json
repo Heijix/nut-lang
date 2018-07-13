@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "cory MULLENS",
+      "email": "cory.mullens@ulogica.net",
+      "dob": "1911",
+      "address": "75 Harvard Avenue",
+      "city": "Halifax",
+      "optedin": false
+      "salary": 36472
+      "float": 31349.74
+    }
+}
+

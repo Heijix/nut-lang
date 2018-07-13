@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "stan FLINN",
+      "email": "stan.flinn@templatek.net",
+      "dob": "1907",
+      "address": "48 Dunstable Street",
+      "city": "Bradford",
+      "optedin": true
+      "salary": 87789
+      "float": 49019.26
+    }
+}
+

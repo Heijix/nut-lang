@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "lyn FLINN",
+      "email": "lyn.flinn@vtgrafix.org",
+      "dob": "1998",
+      "address": "25 Brentwood Drive",
+      "city": "Cambridge",
+      "optedin": false
+      "salary": 4520
+      "float": 34796.90
+    }
+}
+

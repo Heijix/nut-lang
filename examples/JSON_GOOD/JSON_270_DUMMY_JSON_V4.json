@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "haydee BRADBURY",
+      "email": "haydee.bradbury@terralabs.xyz",
+      "dob": "1990",
+      "address": "10 Hudson Street",
+      "city": "Norfolk",
+      "optedin": true
+      "salary": 10961
+      "float": 40070.34
+    }
+}
+

@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "roman DAMPIER",
+      "email": "roman.dampier@qualcore.eu",
+      "dob": "1993",
+      "address": "8 Winchester Drive",
+      "city": "Frankston",
+      "optedin": true
+      "salary": 56053
+      "float": 38187.09
+    }
+}
+

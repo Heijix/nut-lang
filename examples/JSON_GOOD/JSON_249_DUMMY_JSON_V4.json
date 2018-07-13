@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "mitch WOODRUM",
+      "email": "mitch.woodrum@pancast.eu",
+      "dob": "1950",
+      "address": "60 Park Avenue",
+      "city": "Rockhampton",
+      "optedin": true
+      "salary": 8980
+      "float": 14982.62
+    }
+}
+

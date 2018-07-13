@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "lloyd FREEMAN",
+      "email": "lloyd.freeman@hassifix.mobi",
+      "dob": "1993",
+      "address": "67 Faraday Street",
+      "city": "Greenville",
+      "optedin": false
+      "salary": 38423
+      "float": 28740.14
+    }
+}
+

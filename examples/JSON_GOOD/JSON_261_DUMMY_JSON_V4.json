@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "jason NEAL",
+      "email": "jason.neal@multilingua.net",
+      "dob": "1989",
+      "address": "13 Stockton Lane",
+      "city": "Stanford",
+      "optedin": true
+      "salary": 43272
+      "float": 38623.34
+    }
+}
+

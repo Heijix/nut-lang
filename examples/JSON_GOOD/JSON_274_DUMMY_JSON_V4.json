@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "juliana TURNER",
+      "email": "juliana.turner@foretrust.org",
+      "dob": "1976",
+      "address": "18 Elton Way",
+      "city": "Kingston",
+      "optedin": false
+      "salary": 77803
+      "float": 21220.70
+    }
+}
+

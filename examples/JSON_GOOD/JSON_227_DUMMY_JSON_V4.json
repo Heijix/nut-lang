@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "anton STINE",
+      "email": "anton.stine@anaplex.club",
+      "dob": "1946",
+      "address": "80 Colwood Place",
+      "city": "Fairfield",
+      "optedin": false
+      "salary": 36117
+      "float": 44849.89
+    }
+}
+

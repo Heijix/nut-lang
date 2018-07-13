@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "lance WHITE",
+      "email": "lance.white@iridimax.me",
+      "dob": "1989",
+      "address": "34 Hunter Street",
+      "city": "Brisbane",
+      "optedin": true
+      "salary": 80879
+      "float": 16017.10
+    }
+}
+

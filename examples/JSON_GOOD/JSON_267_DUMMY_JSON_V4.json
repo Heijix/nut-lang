@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "russell MERCER",
+      "email": "russell.mercer@thermatek.mobi",
+      "dob": "1995",
+      "address": "65 Faraday Street",
+      "city": "Denver",
+      "optedin": false
+      "salary": 80821
+      "float": 47502.22
+    }
+}
+

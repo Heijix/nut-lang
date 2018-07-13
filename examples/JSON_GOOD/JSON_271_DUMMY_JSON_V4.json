@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "emma PORRAS",
+      "email": "emma.porras@mediadime.eu",
+      "dob": "1914",
+      "address": "37 Chester Square",
+      "city": "Detroit",
+      "optedin": true
+      "salary": 97154
+      "float": 25548.33
+    }
+}
+

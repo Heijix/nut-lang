@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "janett COOLIDGE",
+      "email": "janett.coolidge@unilogic.gov",
+      "dob": "1915",
+      "address": "37 Elton Way",
+      "city": "Seattle",
+      "optedin": true
+      "salary": 47700
+      "float": 17465.69
+    }
+}
+

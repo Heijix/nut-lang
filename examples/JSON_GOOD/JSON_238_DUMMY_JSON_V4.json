@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "layla BOURQUIN",
+      "email": "layla.bourquin@strategyline.info",
+      "dob": "1958",
+      "address": "54 Arlington Road",
+      "city": "Charleston",
+      "optedin": false
+      "salary": 37884
+      "float": 21651.92
+    }
+}
+

@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "isabelle GOUDY",
+      "email": "isabelle.goudy@haltheon.name",
+      "dob": "1933",
+      "address": "74 Albion Place",
+      "city": "Vancouver",
+      "optedin": false
+      "salary": 7751
+      "float": 49991.02
+    }
+}
+

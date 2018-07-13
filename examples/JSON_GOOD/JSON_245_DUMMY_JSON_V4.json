@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "raylene TINDEL",
+      "email": "raylene.tindel@fortyfour.biz",
+      "dob": "1961",
+      "address": "43 Sleepy Lane",
+      "city": "Durham",
+      "optedin": false
+      "salary": 29722
+      "float": 41884.52
+    }
+}
+

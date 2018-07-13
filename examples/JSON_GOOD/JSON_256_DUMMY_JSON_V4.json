@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "austin BRADBURY",
+      "email": "austin.bradbury@haltheon.net",
+      "dob": "1916",
+      "address": "80 Appleton Street",
+      "city": "Vancouver",
+      "optedin": false
+      "salary": 93872
+      "float": 31401.25
+    }
+}
+

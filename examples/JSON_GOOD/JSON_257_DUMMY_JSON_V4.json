@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "richelle REBELO",
+      "email": "richelle.rebelo@skycenta.net",
+      "dob": "1901",
+      "address": "46 Hunter Street",
+      "city": "Newcastle",
+      "optedin": true
+      "salary": 23379
+      "float": 20785.45
+    }
+}
+

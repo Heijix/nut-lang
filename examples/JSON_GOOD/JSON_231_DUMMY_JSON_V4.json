@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "aiden CHARLEY",
+      "email": "aiden.charley@pancast.com",
+      "dob": "1955",
+      "address": "61 Barret Street",
+      "city": "Hobart",
+      "optedin": false
+      "salary": 38062
+      "float": 13930.55
+    }
+}
+

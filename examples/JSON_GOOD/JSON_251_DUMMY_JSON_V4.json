@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "kurt ZOBEL",
+      "email": "kurt.zobel@corexts.net",
+      "dob": "1995",
+      "address": "100 Cottontail Road",
+      "city": "Sheffield",
+      "optedin": true
+      "salary": 34319
+      "float": 38772.80
+    }
+}
+

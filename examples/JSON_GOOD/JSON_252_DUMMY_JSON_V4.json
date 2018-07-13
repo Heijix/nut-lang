@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "rufus SEAL",
+      "email": "rufus.seal@dalserve.biz",
+      "dob": "1922",
+      "address": "10 Crockett Street",
+      "city": "Hartford",
+      "optedin": true
+      "salary": 50490
+      "float": 19332.98
+    }
+}
+

@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "cedric BRADBURY",
+      "email": "cedric.bradbury@dynalab.xyz",
+      "dob": "1948",
+      "address": "63 Buckley Street",
+      "city": "Christchurch",
+      "optedin": false
+      "salary": 38413
+      "float": 32573.17
+    }
+}
+

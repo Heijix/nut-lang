@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "leanne HYDER",
+      "email": "leanne.hyder@sunopia.org",
+      "dob": "1963",
+      "address": "46 Wall Street",
+      "city": "Pheonix",
+      "optedin": false
+      "salary": 47384
+      "float": 46274.74
+    }
+}
+

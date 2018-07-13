@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "andy KILMER",
+      "email": "andy.kilmer@xenosys.com",
+      "dob": "1996",
+      "address": "95 Wall Street",
+      "city": "Bangor",
+      "optedin": true
+      "salary": 86311
+      "float": 20122.78
+    }
+}
+

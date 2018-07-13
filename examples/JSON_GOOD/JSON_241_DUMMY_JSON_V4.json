@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "isabelle BACKER",
+      "email": "isabelle.backer@truext.mobi",
+      "dob": "1950",
+      "address": "100 Clemont Street",
+      "city": "Stanford",
+      "optedin": true
+      "salary": 33154
+      "float": 36648.21
+    }
+}
+

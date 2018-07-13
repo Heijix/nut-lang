@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "ivan PACE",
+      "email": "ivan.pace@keycast.org",
+      "dob": "1979",
+      "address": "19 Canal Street",
+      "city": "Baltimore",
+      "optedin": true
+      "salary": 5840
+      "float": 49403.70
+    }
+}
+

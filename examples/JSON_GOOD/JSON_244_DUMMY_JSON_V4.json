@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "rikki PAQUETTE",
+      "email": "rikki.paquette@sunopia.com",
+      "dob": "1915",
+      "address": "1 Warner Street",
+      "city": "Portland",
+      "optedin": true
+      "salary": 56791
+      "float": 21455.78
+    }
+}
+

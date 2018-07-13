@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "kirstie BRANDT",
+      "email": "kirstie.brandt@grafixmedia.biz",
+      "dob": "1907",
+      "address": "9 Alexander Avenue",
+      "city": "Nottingham",
+      "optedin": false
+      "salary": 98341
+      "float": 25469.11
+    }
+}
+

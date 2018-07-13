@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "jetta CAPPEL",
+      "email": "jetta.cappel@fastfreight.net",
+      "dob": "1947",
+      "address": "71 Alexander Avenue",
+      "city": "Hillboro",
+      "optedin": true
+      "salary": 43762
+      "float": 37283.85
+    }
+}
+

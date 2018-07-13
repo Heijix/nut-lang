@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "joslyn SMIT",
+      "email": "joslyn.smit@conixco.net",
+      "dob": "1928",
+      "address": "18 Alexander Avenue",
+      "city": "Northampton",
+      "optedin": false
+      "salary": 3373
+      "float": 35016.88
+    }
+}
+

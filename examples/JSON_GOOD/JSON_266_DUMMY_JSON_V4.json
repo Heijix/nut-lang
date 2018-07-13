@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "cedric SEABURY",
+      "email": "cedric.seabury@infratouch.me",
+      "dob": "1904",
+      "address": "41 Fairmont Avenue",
+      "city": "Seattle",
+      "optedin": true
+      "salary": 31234
+      "float": 45347.00
+    }
+}
+

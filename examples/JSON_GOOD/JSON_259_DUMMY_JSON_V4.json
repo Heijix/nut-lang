@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "kurt PICKERING",
+      "email": "kurt.pickering@dalserve.org",
+      "dob": "1909",
+      "address": "65 Walford Way",
+      "city": "Charleston",
+      "optedin": false
+      "salary": 80252
+      "float": 35446.70
+    }
+}
+

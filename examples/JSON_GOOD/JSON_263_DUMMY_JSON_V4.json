@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "janett SMIT",
+      "email": "janett.smit@fastfreight.me",
+      "dob": "1904",
+      "address": "47 Windsor Avenue",
+      "city": "Orlando",
+      "optedin": false
+      "salary": 27524
+      "float": 29195.59
+    }
+}
+

@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "edward CONNOR",
+      "email": "edward.connor@thermatek.biz",
+      "dob": "1960",
+      "address": "41 Wooster Road",
+      "city": "London",
+      "optedin": true
+      "salary": 61306
+      "float": 38525.46
+    }
+}
+

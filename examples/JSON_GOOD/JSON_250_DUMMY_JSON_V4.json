@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "jocelyn PETTEY",
+      "email": "jocelyn.pettey@fastmart.xyz",
+      "dob": "1901",
+      "address": "66 Prospect Place",
+      "city": "Melbourne",
+      "optedin": false
+      "salary": 48912
+      "float": 35910.61
+    }
+}
+

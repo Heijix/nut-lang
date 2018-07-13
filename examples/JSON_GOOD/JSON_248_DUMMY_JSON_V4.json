@@ -1,0 +1,14 @@
+{
+    "test": "Hell yeah",
+    "yes":{
+      "name": "lance CARTER",
+      "email": "lance.carter@thermolock.com",
+      "dob": "1959",
+      "address": "60 Longford Crescent",
+      "city": "Oxford",
+      "optedin": false
+      "salary": 15601
+      "float": 40348.28
+    }
+}
+
