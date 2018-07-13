@@ -51,7 +51,7 @@ The first goal is to write examples, and it has to be Json compatible. So we hav
 
 ## Ordered list
 
- - [ ] Get 500 Json files (download, or write it)
+ - [x] Get 500 Json files (download, or write it)
  - [ ] Code Libraries / Write documentation_a
  - [ ] Write CI
  - [ ] Write utility programs like
