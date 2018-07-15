@@ -26,4 +26,6 @@ To validate a core library, and to merge to master, you need:
 
 ## Other stuff
 
-All other stuff can be made in master branch, directly if it refer to a issue. It means that nothing can't be done in master, if they is no associated issue. If, for some reason, you want to do changes or add a new feature, create an associated issue to explain what you did / will do.
+Little stuff can be made in master branch, directly if it refer to a issue. It means that nothing can't be done in master, if they is no associated issue. If, for some reason, you want to do changes or add a new feature, create an associated issue to explain what you did / will do.
+
+Otherwise, if it's a feature, create a issue and a new branch.
