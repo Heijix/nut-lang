@@ -1,0 +1,13 @@
+@ Picture {
+    name: "Awesome picture"
+    dateCreation: 1530264398
+    dateModification: 1530264398
+    image: Image {
+        size_x: 1
+        size_y: 2
+        content: [
+            *[R123]
+            *[R123]
+        ]
+    }
+}

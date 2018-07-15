@@ -1,0 +1,15 @@
+@{
+    id : 12
+    name : "fatal"
+    date : '15 juillet 2018"
+    0225 : {
+        size_x : 2048
+        size_y : 1024
+        content : [
+            {
+                test : "reussi"
+            }, 
+            "banane" : 42 
+        ]
+    }
+}
