@@ -5,6 +5,7 @@
 bin/
 docs/
 
+
 # folder adding by IntelliJ 
 .idea
 .idea/*
