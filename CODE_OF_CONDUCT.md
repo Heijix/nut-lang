@@ -27,6 +27,7 @@ To validate a core library, and to merge to master, you need:
  - respect the ratio N/Files that is given in the section below.
  - the little program has the correct behaviour for all files in examples folder
  - the associated documentation stored in /doc/core
+ - a README file must be present in the code folder that explains how you have written the library (depedency, compile, Makefile... etc)
 
 ## Other stuff
 
