@@ -1,14 +1,11 @@
-################################################
-# Makefile pour le générateur de test pour nut #
-#           © Heijix - Année 2018              #
-################################################
+# Variable
+_RED=$(shell tput setaf 1)
+_BLUE=$(shell tput setaf 4)
+_GREEN=$(shell tput setaf 2)
+_END=$(shell tput sgr0)
 
-
-# Variables
-FLAG_1 = -sourcepath
-FLAG_2 = -d
-JC = javac
-JVM = java
+_NUMBER1 = [$(_BLUE)n$(_END)]
+_NUMBER2 = [$(_BLUE)p$(_END)]
 BIN = binary
 DOC = docs
 SOURCE = src/
@@ -16,80 +13,64 @@ FILES = 10
 START = 1
 
 
-##############
-# Indication #
-#############
 
-# Affichage indicatif
+##############
 all: 
-	@echo "Pour créer la javadoc : make docs"
-	@echo "\\n"
-	@echo "Pour générer [\e[1;34mn\e[0m] fichiers tests d'erreurs dont la numérotation commence par [\e[1;34mp\e[0m] : make error_file FILES=[\e[1;34mn\e[0m] START=[\e[1;34mp\e[0m]"
-	@echo "Pour générer [\e[1;34mn\e[0m] ficheirs tests positifs dont la numérotation commence par [\e[1;34mp\e[0m]  : make good_file FILES=[\e[1;34mn\e[0m] START=[\e[1;34mp\e[0m]"
-	@echo "Par défaut, FILES=10 et START=1"
-	@echo "\\n"
-	@echo "Pour supprimer les binaires et la documentation : make clear"
+	@printf "Create a javadoc of the generator : $(_RED)make docs$(_END)\\n"
+	@printf "Generate $(_NUMBER1) error test files where file dailing start at $(_NUMBER2) : make error_file FILES=$(_NUMBER1) START=$(_NUMBER2)\\n"
+	@printf "Generate $(_NUMBER1) good test files where file dailing start at $(_NUMBER2)  : make good_file  FILES=$(_NUMBER1) START=$(_NUMBER2)\\n"
+	@printf "By default, FILES=10 and START=1 \\n"
+	@printf "\\n"
+	@printf "Delete binary and documentation : $(_RED)make clean$(_END)\\n"  
 
-###############
-# Compilation #
+
+
 ##############
-
-#Compilation unique
 compile: 
-			@echo ''Création des binaires''
+			@printf "Creation of binary\\n"
 			@mkdir -p $(BIN)
-			@echo -e "[\e[1;34mEn cours\e[0m] Compilation"
-			@$(JC) $(FLAG_1) $(SOURCE) -d $(BIN) $(SOURCE)**/*.java $(SOURCE)*.java
-			@echo -e "[\e[1;32mOK\e[0m] Compilation finie"
-
-#################
-# Lancement jeu #
-#################
-
-# Lancement avec compilation si besoin
-error_file: clear_binary compile
-			@clear
-			@$(JVM) -cp $(BIN) Main 0 $(FILES) $(START)
+			@printf "[$(_BLUE)In progress$(_END)] Compilation\\n"
+			@javac -sourcepath $(SOURCE) -d $(BIN) $(SOURCE)/Main.java
+			@printf "[$(_GREEN)OK$(_END)] End of compilation\\n"
 
 
-good_file: clear_binary compile
-			@clear
-			@$(JVM) -cp $(BIN) Main 1 $(FILES) $(START)
+
+##############
+error_file: clean_binary compile
+			@java -cp $(BIN) Main 0 $(FILES) $(START)
 
 
-#################
-# Documentation #
-#################
-
-# créer la doc
-docs:
-			@clear
-			@echo "Création de la documentation"
-			-@javadoc -charset utf8 -author -d $(DOC) -Xdoclint:none -sourcepath $(SOURCE) $(SOURCE)**/*.java $(SOURCE)*.java  $(SOURCE)**/**/*.java 2>/dev/null 1>/dev/null
-			@echo -e "[\e[1;32mOK\e[0m] Création documentation dans \e[1;35mdocs/\e[0m"
+good_file: clean_binary compile
+			@java -cp $(BIN) Main 1 $(FILES) $(START)
 
 
-#########
-# Clear #
-#########
 
-clear: clear_binary clear_doc
-# Vider les binaires
+##############
+docs: clean_doc
+			@printf "Creation of documentation\\n"
+			@mkdir -p $(DOC)
+			@javadoc -charset utf8 -author -d $(DOC) -Xdoclint:none -sourcepath $(SOURCE) -subpackages $(SOURCE)* 2>/dev/null 1>/dev/null
+			@printf "[$(_GREEN)OK$(_END)] Documentation in $(_BLUE)docs$(_END) folder\\n"
+
+
+##############
+clean: clean_binary clean_doc
 ifeq ($(shell test -e binary && echo yes),yes)
-clear_binary:
+clean_binary:
 		@rm -Rf $(BIN) 
-		@echo -e "[\e[1;32mOK\e[0m] Binaires supprimés"
+		@printf "[$(_GREEN)OK$(_END)] Binary deleted\\n"
 else
-clear_binary:
-	@echo "Aucun binaire à supprimer"
+clean_binary:
+	@printf "No binary to delete\\n"
 endif
 
-# Supprimer la doc
+
+##############
 ifeq ($(shell test -e docs && echo yes),yes)
-clear_doc:
+clean_doc:
 		@rm -Rf $(DOC) 
-		@echo -e "[\e[1;32mOK\e[0m] Documentation supprimée"
+		@printf "[$(_GREEN)OK$(_END)] Documentation deleted\\n"
 else
-clear_doc:
-	@echo "Aucune doc à supprimer"
+clean_doc:
+	@printf "No documentation to delete\\n"
 endif

@@ -1,0 +1,13 @@
+# Ignore .class
+*.class
+
+# element of bin/
+bin/
+docs/
+
+# folder adding by IntelliJ 
+.idea
+.idea/*
+out/
+out/*
+*.iml
