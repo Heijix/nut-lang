@@ -1,5 +1,9 @@
 # Code of conduct
 
+All the code, and documentation must be written in English.
+
+When you have finished your stuff in a branch. We work by pull request, and after validation : we merge into master.
+
 ## Libraries
 
 When you are coding a library, after putting the card in nut-libraries project as 'In-progress', and had written in the associated issue that you are doing it. You have to create new branch from master. In this branch named like your language (example : C-library). You can only change the subdirectories listed below. This is to prevent massive git conflicts when merging.
