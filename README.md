@@ -76,6 +76,7 @@ Coding libraries
  - [ ] java
  - [ ] ocaml
  - [ ] python
+ - [ ] JavaScript
 
 We have to respect the corresping table to write nut files at the same time than we write library code
 
