@@ -1,0 +1,12 @@
+opam-version: "1.2"
+name: "nut"
+version: "0.1"
+
+maintainer: [ "Étienne Marais (Heijix) <etiennemarais@protonmail.com>" ]
+authors: [ "Étienne Marais (Heijix) <etiennemarais@protonmail.com>" ]
+license: "MIT"
+depends: [
+  "dune" {build}
+  "odoc" {doc}
+]
+
