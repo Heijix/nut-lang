@@ -10,22 +10,27 @@ all: test
 
 # Execute an example command for nut files
 run:
-	@dune exec nut_cmd
+	@echo "Run nut_cmd"
+	@dune exec src/bin/nut_cmd.exe
 
 # Build the project : library and executable
 build:
 	@dune build
-	ln -sf _build/default/src/nut_cmd ./bin
+	@dune build src/bin/nut_cmd.exe
+	@echo "Create bin directory"
+	@ln -sf _build/default/src/bin ./bin
 
-# Launch tests
+# Launch tests for OCaml
 test:
-	@dune runtest
+	@echo "Tests are runnning :"
+	@dune build @runtest
 
 # Prepare install for Opam
 install:
-	@dune @install	
+	@dune build @install	
 
 # Clean the repository
 clean:
+	@echo "Delete bin directory and clean _build"
 	@dune clean	
-	rm -rf ./bin
+	@rm -rf ./bin
