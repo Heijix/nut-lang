@@ -1,0 +1,4 @@
+(library
+    (name nut)
+    (public_name nut)
+)

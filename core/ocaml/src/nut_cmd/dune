@@ -1,0 +1,5 @@
+(executable
+    (name nut_cmd)
+    (public_name nut_cmd)
+    (libraries nut)
+)
