@@ -20,7 +20,9 @@ public class Generator {
         else type = "good";
     }
 
-
+    /**
+     * Tesy
+     */
     public void createNewFile(int numberOfFiles) {
         try {
             File newFile = new File(this.folderPath + this.type + "_files/" + this.type + "_file" + numberOfFiles);

@@ -1,4 +1,4 @@
-public static class Standard{
+public class Standard{
 
     /* Ignorable characters */
 

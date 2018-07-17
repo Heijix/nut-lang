@@ -1,4 +1,4 @@
-public static class Lambda{
+public class Lambda{
 
     /********** LAMBDA GRAMMAR ***********/
 

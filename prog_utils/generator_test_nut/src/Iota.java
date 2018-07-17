@@ -1,4 +1,4 @@
-public static class Iota{
+public class Iota{
 
 
     /********** IOTA GRAMMAR ***********/
@@ -13,5 +13,5 @@ public static class Iota{
         return import_command() + "\n" + iota_command();
     }
 
-    
+
 }
