@@ -1,0 +1,6 @@
+#build by gradle
+build/
+.gradle/
+
+#intellij doc
+.idea/
