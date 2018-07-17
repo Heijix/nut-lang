@@ -439,6 +439,7 @@ IG
     _Type_Root
         _object
         _array
+        &[ is_alias ]
 
 Changes with json
 ~~~~~~~~~~~~~~~~~
