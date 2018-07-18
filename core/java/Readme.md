@@ -1,4 +1,4 @@
-#Nut with Java parser
+# Nut with Java parser
 
 This program is a parser in Java language of a Nut file.
 
@@ -11,9 +11,9 @@ Download binaries and put them in the 'Nut-java' folder:
 waiting for production
 ``` 
 
-##Use
+## Use
 
-###Parser
+### Parser
 The main class is 'NutParser.java' and has following functions :
 
 - parse(String pathname), returns a Nut object
@@ -21,7 +21,7 @@ The main class is 'NutParser.java' and has following functions :
 - blablacar
 - etc (ethnic and tyranic conception)
 
-###Nut object
+### Nut object
 The parser creates a 'Nut' object corresponding to the Nut file. You just need to import 'Nut.java' file in your class to use it.
 
 This object contains these functions :
@@ -33,14 +33,14 @@ This object contains these functions :
 
 If you call one of these function and it is not correspond to the attribute type in paramater, it throws an WrongTypeException.
 
-##Write of parser
+## Write of parser
 
-###Lexer
+### Lexer
 We will use Jflex to do the lexer. It will generate a minimum of token in the minimum of states (use of HashMap). 
 
 Moreover, we need to do all that we can in the lexer to reduce the parser.
 
-###Parser
+### Parser
 The parsing step is composed of 4 classes :
 - **Iota.java** for Iota-grammar
 - **Omega.java** for Omega-grammar
