@@ -134,6 +134,7 @@ We now have to store each definition of the DataTypes into a Table. We analyse t
  - For Aliases Objects:
     - Aliases can't overwrite any already used aliases id. (B5)
     - Note: If a alias id is not used in a imported file, we don't throw an error. It could have be made in purpose. We don't throw a B4 error.
+	- A alias can only be used in the current scope, it means that, for the momemnt, we can't access references of an imported file.
 
 Next, we have a consistent list of Data Types.
 
