@@ -1,17 +1,17 @@
-#Use of nut java parser
+# Use of nut java parser
 
 There is two step to launch the project : 
 - makefile (do make and follow instruction)
 - gradle (follow below steps)
 
-##Makefile
+## Makefile
 You need to have gradle to develop the nut java parser. 
 
 So, you can install grable by doing 'make gradle'.
 
 Next, all makefile command are same as gradle command. 
 
-##Gradle
+## Gradle
 If you don't have gradle, do 'make gradle' and it will be setup.
 
 Else, you can do 'gradle tasks' to view all command, and all possibilities of gradle.
@@ -23,7 +23,7 @@ All that you need are :
 If you want to test a class :
 - create a class in test/test folder
 - write your method that will test the class (be aware that this method can't have any argument, and it can't be static), notice '@Test' above it and import 'org.junit.*', such as :
-```
+```java
 import org.junit.*;
 
 public class TestNut{
