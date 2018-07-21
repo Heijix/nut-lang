@@ -16,9 +16,11 @@ waiting for production
 ### Parser
 The main class is 'NutParser.java' and has following functions :
 
-- parse(String pathname), returns a Nut object
-- (@FauconFan is your turn to write other functions)
-- blablacar
+- parse(String pathName), returns a Nut object
+- parse(String pathName, String wantedObjectModel), returns a Nut object and validate that the object in wantedIbjectModel is the same
+- parse(String pathName, String wantedObjectModel, String objectName), same as above, but we specify the object in case that there are multiple objects definitions in wantedObjectModel file
+- validate(String pathName, String wantedObjectModel) just validate, return true, false
+- validate(String pathName, String wantedObjectModel, String objectName) just validate, return true false
 - etc (ethnic and tyranic conception)
 
 ### Nut object
