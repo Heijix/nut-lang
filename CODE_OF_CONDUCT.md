@@ -29,6 +29,8 @@ To validate a core library, and to merge to master, you need:
  - the associated documentation stored in /doc/core
  - a README file must be present in the code folder that explains how you have written the library (depedency, compile, Makefile... etc)
 
+The docs directory and the test program must be in the /core/{LANG}. It may change in the future.
+
 ## Other stuff
 
 Little stuff can be made in master branch, directly if it refer to a issue. It means that nothing can't be done in master, if they is no associated issue. If, for some reason, you want to do changes or add a new feature, create an associated issue to explain what you did / will do.
