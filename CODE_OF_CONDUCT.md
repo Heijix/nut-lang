@@ -19,7 +19,7 @@ Do not touch branch of others... Unless they allow it.
 
 To validate a core library, and to merge to master, you need:
  - the code library
- - an associated little program associated that:
+ - an associated little program that:
     - use the library.
     - take a filepath as argument.
     - exits with 0 return code, it it's all good.
@@ -28,6 +28,8 @@ To validate a core library, and to merge to master, you need:
  - the little program has the correct behaviour for all files in examples folder
  - the associated documentation stored in /doc/core
  - a README file must be present in the code folder that explains how you have written the library (depedency, compile, Makefile... etc)
+
+The docs directory and the test program must be in the /core/{LANG}. It may change in the future.
 
 ## Other stuff
 
