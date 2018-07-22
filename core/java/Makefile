@@ -1,4 +1,4 @@
-.phony: all gradle clean assemble javadoc build test help
+.PHONY: all gradle clean assemble javadoc build test help
 
 all:
 	@printf "this project depends of gradle-4.9. you need to have it.\\n"
@@ -11,13 +11,11 @@ all:
 	@printf "make help - to have more information.\\n"
 
 gradle:
-	@sudo -s
-	@wget https://services.gradle.org/distributions/gradle-4.9-bin.zip
-	@mkdir /opt/gradle
-	@unzip -d /opt/gradle gradle-4.9-bin.zip
-	@export path=$path:/opt/gradle/gradle-4.9/bin
-	@printf "do \"echo 'export PATH=\$PATH:/opt/gradle/gradle-4.9/bin' >> .bashrc\" after installation please."
-	@exit
+    @printf "wget https://services.gradle.org/distributions/gradle-4.9-bin.zip\\n"
+	@printf "mkdir /opt/gradle\\n"
+	@printf "unzip -d /opt/gradle gradle-4.9-bin.zip\\n"
+	@printf "export PATH=$PATH:/opt/gradle/gradle-4.9/bin\\n"
+	@printf "\"do \"echo 'export PATH=\$PATH:/opt/gradle/gradle-4.9/bin' >> .bashrc\" after installation please.\"\\n"
 
 assemble:
 	@gradle assemble
