@@ -24,9 +24,8 @@ $> tree_customized
 │   ├── java
 │   ├── ocaml
 │   └── python
-├── doc
-│   └── dev
-│       └── [Some Stuff]
+├── nut-doc
+│   └── [Some Stuff]
 ├── examples
 │   ├── BAD
 │   │   ├── BAD_000_MINIMAL
@@ -38,24 +37,19 @@ $> tree_customized
 │   │   └── GOOD_000_MINIMAL
 │   └── JSON_COMPATIBLE
 ├── prog_utils
-├── test_utils
-│   └── core
-│   │   └── [Some Stuff]
 └── README.md
 ```
 
 | folder | explanation |
 | :----- | :---------- |
 | core | main code about library in there |
-| doc | the documentation |
+| nut-doc | the documentation |
 | examples | a bench a nut files |
 | prog_utils | utils code |
-| test_utils | tests code or scripts |
-| test_utils/code | main code for run and test library code |
 
 # To do list
 
-The first goal is to write examples, and it has to be Json compatible. So we have to write or download or generate 500 Json files, and put them in the /examples/JSON_COMPATIBLE folder. If you want to download, or generate Json files, make sure that you use differents generators. Because generators just changes values, and not the architecture of the file.
+Terminate the Java library to start writing code.
 
 ## Ordered list
 
