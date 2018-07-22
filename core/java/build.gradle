@@ -11,18 +11,18 @@ sourceCompatibility = 1.8
 sourceSets{
     main {
         java{
-            srcDir 'src/'
+            srcDir 'src/org/nut-lang'
         }
         resources{
-            srcDir 'resources/'
+            srcDir 'src/org/resources/'
         }
     }
     test {
         java{
-            srcDir 'test/test'
+            srcDir 'src/test/test'
         }
         resources{
-            srcDir 'test/resources'
+            srcDir 'src/test/resources'
         }
     }
     docs {
