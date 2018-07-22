@@ -19,7 +19,7 @@ Do not touch branch of others... Unless they allow it.
 
 To validate a core library, and to merge to master, you need:
  - the code library
- - an associated little program associated that:
+ - an associated little program that:
     - use the library.
     - take a filepath as argument.
     - exits with 0 return code, it it's all good.
