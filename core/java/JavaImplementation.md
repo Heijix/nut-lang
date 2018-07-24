@@ -119,7 +119,7 @@ _Alias ->
         | ALIAS NAME COLON_EQUAL _Type
         
 _Type ->
-        | NAME _Generic
+        | NAME
         | LIST _Generic
         | STRING
         | BOOLEAN
@@ -150,10 +150,10 @@ _NextTypeSpace ->
         | None  
             
 _Data ->
-        | DATA NAME _Generic COLON_EQUAL _MemberType
+        | DATA NAME COLON_EQUAL _MemberType
 
 _MemberType ->
-        | DASH _Type _Generic COLON NAME _DefaultContent _MemberTypeNext
+        | DASH _Type COLON NAME _DefaultContent _MemberTypeNext
         
 _DefaultContent -> 
         | EQUAL _Value
@@ -169,14 +169,7 @@ _MemberTypeNext ->
          
 ##### Omega Grammar #####
 
-_Value ->
-        | _ValueReference _ValueType
-
-_ValueReference ->
-        | REF_DEFINE NAME R_SQ_BRACE 
-        | None
-
-_ValueType -> 
+_Value -> 
         | REF_ACCESS NAME R_SQ_BRACE
         | _Object
         | _Array
@@ -246,6 +239,7 @@ _Root ->
         | _DataIdentifier _Value
         
 _DataIdentifier ->
+        | REF_DEFINE NAME R_SQ_BRACE
         | ROOT
         | None
 ```
