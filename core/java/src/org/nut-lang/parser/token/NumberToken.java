@@ -4,14 +4,15 @@ import parser.Sym;
 
 public class NumberToken extends Token {
 
-    private String value;
+    private long value;
 
     public NumberToken(int line, int column, Sym symbol, String value) {
         super(line, column, symbol);
-        this.value = value;
+        value = (value.charAt(0) == '+') ? value.substring(1) : value;
+        this.value = Long.valueOf(value);
     }
 
-    public String getValue() {
+    public long getValue() {
         return value;
     }
 }

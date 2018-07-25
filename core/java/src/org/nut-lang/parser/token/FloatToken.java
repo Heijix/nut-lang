@@ -8,6 +8,7 @@ public class FloatToken extends Token {
 
     public FloatToken(int line, int column, Sym symbol, String value) {
         super(line, column, symbol);
+        value = (value.charAt(0) == '+') ? value.substring(1) : value;
         this.value = Float.valueOf(value);
     }
 

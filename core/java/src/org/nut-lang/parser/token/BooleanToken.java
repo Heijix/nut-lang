@@ -6,12 +6,12 @@ public class BooleanToken extends Token{
 
     private boolean value;
 
-    public BooleanToken(int line, int column, Sym symbol, String value) {
+    public BooleanToken(int line, int column, Sym symbol, boolean value) {
         super(line, column, symbol);
-        this.value = value.matches("true");
+        this.value = value;
     }
 
-    public boolean isValue() {
+    public boolean getValue() {
         return value;
     }
 }

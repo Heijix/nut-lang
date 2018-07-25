@@ -3,6 +3,7 @@ package jflex;
 import parser.*;
 import parser.Sym;
 import parser.token.*;
+import Exception.L.*;
 
 %%
 %public
@@ -26,6 +27,7 @@ comment = "#"[^\n\r]*
 blanc = [\n\ \t\r\v\f]
 control_char = [\0-\x1F\x7F-\x9F]
 hex = [0-9A-Fa-f]
+float = [:digit:]+.[:digit:]* | [:digit:]*.[:digit:]+
 
 char = "\\"[\\/bfnrt] | "\\u"{hex}{hex}{hex}{hex}
 
@@ -36,14 +38,13 @@ stringDQ = "\"" {charsD}* "\""
 stringSQ = "'" {charsS}* "'"
 name = [:letter:][:jletterdigit:]*
 number = [+-]?[:digit:]+
-floatNumber = [+-]? [:digit:]*.[:digit:]*
-
+floatNumber = [+-]? {float}
 
 
 %%
 //standard token
-"true"					{return new BooleanToken(Sym.BOOLEAN_VALUE, yyline + 1, yycolumn +1, yytext());}
-"false"					{return new BooleanToken(Sym.BOOLEAN_VALUE, yyline + 1, yycolumn +1, yytext());}
+"true"					{return new BooleanToken(Sym.BOOLEAN_VALUE, yyline + 1, yycolumn +1, true);}
+"false"					{return new BooleanToken(Sym.BOOLEAN_VALUE, yyline + 1, yycolumn +1, false);}
 <<EOF>>                	{return new Token(Sym.EOF,yyline + 1,yycolumn +1 ) ;}
 
 
@@ -91,14 +92,14 @@ floatNumber = [+-]? [:digit:]*.[:digit:]*
 
 // Standard tokens
 {stringDQ} | {stringSQ} {return new StringToken(Sym.STRING_VALUE, yyline + 1, yycolumn + 1, yytext().substring(1,yytext().length() - 1));}
-{name}					{return new NameToken(Sym.NAME, yyline + 1, yycolumn + 1, yytext());}
+{name}					{return new StringToken(Sym.NAME, yyline + 1, yycolumn + 1, yytext());}
 {number}				{return new NumberToken(Sym.NUMBER, yyline + 1, yycolumn + 1, yytext());}
 {floatNumber}			{return new FloatToken(Sym.FLOAT_NUMBER, yyline + 1, yycolumn + 1, yytext());}
 
 // Ignored sentence
 {comment}       	{}
 {blanc}		  		{}
-{control_char}		{throw new L1Exception(yyline + 1,yycolumn +1);}
+{control_char}		{throw new L1Exception(yyline + 1,yycolumn +1, yytext());}
 
 // Error
 [^] { throw new L3Exception(yyline + 1,yycolumn +1 , yytext()) ;}
