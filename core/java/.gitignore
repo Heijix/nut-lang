@@ -8,3 +8,6 @@ docs/
 gradle/
 gradlew
 gradlew.bat
+
+#jflex
+src/org/nut-lang/jflex/Lexer.java*
