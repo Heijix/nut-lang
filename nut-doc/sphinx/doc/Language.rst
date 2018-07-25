@@ -35,7 +35,7 @@ Accepted importable file
 
 .. code-block:: none
 
-    Data Pixel :-
+    Data Pixel :=
         - uchar: red
         - uchar : green
         - uchar : blue
@@ -50,7 +50,7 @@ Refused importable file
 
 .. code-block:: none
 
-    Data Pixel :-
+    Data Pixel :=
         - uchar: red
         - uchar : green
         - uchar : blue
@@ -87,7 +87,7 @@ Aliases
 
 We have multiple kind of aliases. We have the Type aliases, and the value reference alias :
   - Data Type Alias is for Data definition in Iota Format
-    - Ex: Alias Time :- ulong
+    - Ex: Alias Time := ulong
   - Value reference alias
     - Ex: See below.
 
@@ -109,7 +109,7 @@ Example:
 
 .. code-block:: none
 
-    Data Color :-
+    Data Color :=
         - uchar : red
         - uchar : green
         - uchar : blue
@@ -118,17 +118,17 @@ Another example:
 
 .. code-block:: none
 
-    Data Pixel :-
+    Data Pixel :=
         - Color : colors
         - uchar : alpha
 
-    Data Pixel :-
+    Data Pixel :=
         - uchar: red
         - uchar : green
         - uchar : blue
         - uchar : alpha
 
-    Data Image :-
+    Data Image :=
         - ulong : size_x
         - ulong : size_y
         - list<Pixel> : pixels

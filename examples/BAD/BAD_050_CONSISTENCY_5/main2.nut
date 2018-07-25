@@ -1,1 +1,1 @@
-Alias Path :- string
+Alias Path := string

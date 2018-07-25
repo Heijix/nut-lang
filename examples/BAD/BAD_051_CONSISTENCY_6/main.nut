@@ -1,5 +1,5 @@
 
-Data File :-
+Data File :=
     - string: filePath
     - bool: isDirectory = "no"
 

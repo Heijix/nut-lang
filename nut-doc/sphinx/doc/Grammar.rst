@@ -208,10 +208,10 @@ IG
         define_new_type_command Lambda_command
 
     alias_command
-        Alias NewType :- Type
+        Alias NewType := Type
 
     define_new_type_command
-        Data NewType Generic_Type :- MemberType_next
+        Data NewType Generic_Type := MemberType_next
 
     Generic_Type
         None
@@ -235,7 +235,7 @@ IG
 This will generate this bunch of tokens:
  - ALIAS : for the word Alias word
  - NAME : for the Type and NewType... We use these words to be more understandable when we will read the grammar later. But in fact, they are just names, we will interpret them as Types later.
- - COLON_DASH : for ':-'
+ - COLON_EQUAL : for ':='
  - L_ANGLE_BRACE : for '<'
  - R_ANGLE_BRACE : for '>'
  - COMMA : for ','

@@ -1,20 +1,20 @@
 
-Alias TimeEpoch :- ulong
-Alias ColorRange :- uchar
+Alias TimeEpoch := ulong
+Alias ColorRange := uchar
 
-Data Color :-
+Data Color :=
     - ColorRange: red
     - ColorRange: green
     - ColorRange: blue
 
-Alias Pixel :- Color
+Alias Pixel := Color
 
-Data Image :-
+Data Image :=
     - ulong : size_x
     - ulong : size_y
     - list<Pixel> : content
 
-Data Picture :-
+Data Picture :=
     - string : name
     - TimeEpoch : dateCreation
     - TimeEpoch : dateModification

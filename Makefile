@@ -39,15 +39,13 @@ lib-%: core/%
 	make -C $?
 
 deploy_dev_doc:
-	make -C doc/dev/ deploy_local
+	make -C nut-doc deploy_local
 
 remove_dev_doc:
-	make -C doc/dev/ remove_deploy
+	make -C nut-doc remove_deploy
 
 clean:
-	make -C doc/dev/ clean
+	make -C nut-doc/ clean
 	for i in $(LANGUAGES); do \
 		make -C core/$$i/ clean; \
-		make -C doc/core/$$i/ clean; \
-		make -C test_utils/core/$$i/ clean; \
 	done

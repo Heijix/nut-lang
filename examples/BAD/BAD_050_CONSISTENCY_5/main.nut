@@ -1,6 +1,6 @@
 Import 'main2.nut'
 
-Data Path :-
+Data Path :=
     - string: content
     - bool: isAbsolute
 
