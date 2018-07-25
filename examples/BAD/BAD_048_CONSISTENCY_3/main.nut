@@ -5,6 +5,6 @@ Data House :=
 Data Address :=
     - string: type
     - string: name
-    - uint: number
+    - uint32: number
 
 {}

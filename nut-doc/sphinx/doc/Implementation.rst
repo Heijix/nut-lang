@@ -114,10 +114,10 @@ Now, we query for the imports files. The imports file has to imported in order, 
 
 In the beginning of the program, we just have the standard primary types, id est :
 
- - char / uchar
- - short / ushort
- - int / uint
- - long / ulong
+ - int8 / uint8
+ - int16 / uint16
+ - int32 / uint32
+ - int64 / uint64
  - string
  - boolean
 

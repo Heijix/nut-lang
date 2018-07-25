@@ -31,8 +31,8 @@ A storing-data example using Data Types in Nut.
 
 ..  code-block:: none
 
-    Alias TimeEpoch := ulong
-    Alias ColorRange := uchar
+    Alias TimeEpoch := uint64
+    Alias ColorRange := uint8
 
     Data Color :=
         - ColorRange: red
@@ -42,8 +42,8 @@ A storing-data example using Data Types in Nut.
     Alias Pixel := Color
 
     Data Image :=
-        - ulong : size_x
-        - ulong : size_y
+        - uint64 : size_x
+        - uint64 : size_y
         - list<Pixel> : content
 
     Data Picture :=
@@ -108,9 +108,8 @@ So let'stalk about this '&[R123]' and '@ Picture'.
 
 So let's start with the beginning, when we are parsing the file, here in this example, we have two objects : the Color and the Picture. But Nut language will give one single object after parsing. So we have to specify it by using the character '@' just before the name object. The '@' is called a Data Type Qualifier. The other object (the Color one) is defined here in the main scope. But it's not in the Picture image. We can say that the Color object is a varible here. And the reference of this variable is 'R123'. So we use the Data Type Qualifier &[R123], then we can use it later in the Picture image by calling the reference '\*[R1234]'.
 
-But we have to say two more things :
- - Aliases objects in main scope, has to be used at least once.
- - You can also define the Color object directly in the Picture object, set the reference and still use it after. It is accepted, but not very readable... So it will raise a single warnings... (somehow). See the example below.
+But we have to say one thing :
+ - You absolutely can't define the Color object directly in the Picture object..
 
 ..  code-block:: none
 
@@ -124,7 +123,7 @@ But we have to say two more things :
             size_x: 1
             size_y: 2
             content: [
-                &[R123] Color { # Here raise the warning
+                &[R123] Color { # Here raise the error. Not allowed
                     red: 255
                     green: 42
                     blue: 57

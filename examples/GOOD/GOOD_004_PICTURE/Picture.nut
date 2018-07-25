@@ -1,6 +1,6 @@
 
-Alias TimeEpoch := ulong
-Alias ColorRange := uchar
+Alias TimeEpoch := uint64
+Alias ColorRange := uint8
 
 Data Color :=
     - ColorRange: red
@@ -10,8 +10,8 @@ Data Color :=
 Alias Pixel := Color
 
 Data Image :=
-    - ulong : size_x
-    - ulong : size_y
+    - uint64 : size_x
+    - uint64 : size_y
     - list<Pixel> : content
 
 Data Picture :=

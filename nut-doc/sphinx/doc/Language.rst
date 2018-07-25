@@ -36,9 +36,9 @@ Accepted importable file
 .. code-block:: none
 
     Data Pixel :=
-        - uchar: red
-        - uchar : green
-        - uchar : blue
+        - uint8: red
+        - uint8 : green
+        - uint8 : blue
 
     &[WhitePixel] Pixel {
         red : 0
@@ -51,9 +51,9 @@ Refused importable file
 .. code-block:: none
 
     Data Pixel :=
-        - uchar: red
-        - uchar : green
-        - uchar : blue
+        - uint8: red
+        - uint8 : green
+        - uint8 : blue
 
     &[WhitePixel] Pixel {
         red : 0
@@ -87,7 +87,7 @@ Aliases
 
 We have multiple kind of aliases. We have the Type aliases, and the value reference alias :
   - Data Type Alias is for Data definition in Iota Format
-    - Ex: Alias Time := ulong
+    - Ex: Alias Time := uint64
   - Value reference alias
     - Ex: See below.
 
@@ -110,9 +110,9 @@ Example:
 .. code-block:: none
 
     Data Color :=
-        - uchar : red
-        - uchar : green
-        - uchar : blue
+        - uint8 : red
+        - uint8 : green
+        - uint8 : blue
 
 Another example:
 
@@ -120,32 +120,31 @@ Another example:
 
     Data Pixel :=
         - Color : colors
-        - uchar : alpha
+        - uint8 : alpha
 
     Data Pixel :=
-        - uchar: red
-        - uchar : green
-        - uchar : blue
-        - uchar : alpha
+        - uint8: red
+        - uint8 : green
+        - uint8 : blue
+        - uint8 : alpha
 
     Data Image :=
-        - ulong : size_x
-        - ulong : size_y
+        - uint64 : size_x
+        - uint64 : size_y
         - list<Pixel> : pixels
 
 So, there is a lot to say about these data types.
 First, we can define a Type as a combination of Primitives Types or created-by-user Types.
 
 Primitives Types:
- - char, uchar (8 bits)
- - short, ushort (16 bits)
- - int, uint (32 bits)
- - long, ulong (64 bits)
+ - int8, uint8 (8 bits)
+ - int16, uint16 (16 bits)
+ - int32, uint32 (32 bits)
+ - int64, uint64 (64 bits)
  - bool (true or false)
  - string
 
 The u prefix means that the data type is not signed...
-Care, char in this representation is not a character, it is a number between -128 and 127.
 
 Then, we can define a type, as a combination of types that we just define before. We can also define a data structure multiple times. We define here Pixel 2 times. It can have two definitions (if they are defined in the same file).
 
