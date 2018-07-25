@@ -1,8 +1,8 @@
 package Exception.L;
 
-public class L3 extends Exception {
+public class L3Exception extends Exception {
 
-    public L3 () {
+    public L3Exception() {
         super ("Unexpected Character, match nothing in the grammar");
     }
 

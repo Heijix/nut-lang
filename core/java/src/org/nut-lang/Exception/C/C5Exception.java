@@ -1,8 +1,8 @@
 package Exception.C;
 
-public class C5 extends Exception {
+public class C5Exception extends Exception {
 
-    public C5 () {
+    public C5Exception() {
         super ("We cannot overwrite a Data Type already defined in imported file");
     }
 

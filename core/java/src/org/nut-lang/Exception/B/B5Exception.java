@@ -1,8 +1,8 @@
 package Exception.B;
 
-public class B5 extends Exception {
+public class B5Exception extends Exception {
 
-    public B5 () {
+    public B5Exception() {
         super ("An alias already exist, choose another one");
     }
 
