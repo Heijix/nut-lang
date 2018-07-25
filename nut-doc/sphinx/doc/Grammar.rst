@@ -386,10 +386,17 @@ No IG here
 .. code-block:: none
 
     _number
-        _whole_part
-        _whole_part _frac
-        _whole_part _exp
-        _whole_part _frac _exp
+        _whole_part _number_decimal
+		_number_decimal
+
+	_number_decimal
+		_frac _number_decimal_exp
+		_number_decimal_exp
+		None
+
+	_number_decimal_exp
+		_exp
+		None
 
     _whole_part
         _DIGIT
@@ -410,6 +417,9 @@ No IG here
     _exp_marker
         e [+-]?
         E [+-]?
+
+Here, we have to check if the result of this rule (_number) is not a dot alone: ".".
+It is accepted by the grammar. But it is not by the program. It is a lexing error, it have to be seperated to be explicit.
 
 Tokens generated:
  - \_DIGIT
