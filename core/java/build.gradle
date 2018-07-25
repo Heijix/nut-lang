@@ -3,6 +3,8 @@ plugins {
     /*id 'application'*/
 }
 
+apply plugin: 'java'
+
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
@@ -37,7 +39,15 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
+task jflex (type:Exec){
 
+    executable 'jflex'
+
+    args 'src/org/nut-lang/jflex/lex.flex'
+
+    description 'Compiling jflex'
+
+}
 javadoc{
     destinationDir = file("docs/")
 }

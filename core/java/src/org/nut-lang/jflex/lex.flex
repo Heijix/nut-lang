@@ -1,4 +1,4 @@
-package lexer;
+package jflex;
 
 import parser.*;
 import parser.Sym;
@@ -16,7 +16,7 @@ import parser.token.*;
 
 %yylexthrow{
   //Exception thrown
-  Exception, L1Exception, L3Exception,  
+  Exception, L1Exception, L3Exception
 %yylexthrow}
 
 
@@ -29,8 +29,8 @@ hex = [0-9A-Fa-f]
 
 char = "\\"[\\/bfnrt] | "\\u"{hex}{hex}{hex}{hex}
 
-charsD = [^{control_char}\"\\] | char 
-charsS = [^{control_char}\'\\] | char
+charsD = [^[\0-\x1F\x7F-\x9F]\"\\] | {char}
+charsS = [^[\0-\x1F\x7F-\x9F]\'\\] | {char}
 
 stringDQ = "\"" {charsD}* "\""
 stringSQ = "'" {charsS}* "'"
@@ -42,10 +42,6 @@ floatNumber = [+-]? [:digit:]*.[:digit:]*
 
 %%
 //standard token
-{stringDQ} | {stringSQ} {return new StringToken(Sym.STRING_VALUE, yyline + 1, yycolumn + 1, yytext().substring(1,yytext().length() - 1));}
-{name}					{return new NameToken(Sym.NAME, yyline + 1, yycolumn + 1, yytext());}
-{number}				{return new NumberToken(Sym.NUMBER, yyline + 1, yycolumn + 1, yytext());}
-{floatNumber}			{return new FloatToken(Sym.FLOAT_NUMBER, yyline + 1, yycolumn + 1, yytext());}
 "true"					{return new BooleanToken(Sym.BOOLEAN_VALUE, yyline + 1, yycolumn +1, yytext());}
 "false"					{return new BooleanToken(Sym.BOOLEAN_VALUE, yyline + 1, yycolumn +1, yytext());}
 <<EOF>>                	{return new Token(Sym.EOF,yyline + 1,yycolumn +1 ) ;}
@@ -93,10 +89,16 @@ floatNumber = [+-]? [:digit:]*.[:digit:]*
 
 
 
+// Standard tokens
+{stringDQ} | {stringSQ} {return new StringToken(Sym.STRING_VALUE, yyline + 1, yycolumn + 1, yytext().substring(1,yytext().length() - 1));}
+{name}					{return new NameToken(Sym.NAME, yyline + 1, yycolumn + 1, yytext());}
+{number}				{return new NumberToken(Sym.NUMBER, yyline + 1, yycolumn + 1, yytext());}
+{floatNumber}			{return new FloatToken(Sym.FLOAT_NUMBER, yyline + 1, yycolumn + 1, yytext());}
+
 // Ignored sentence
 {comment}       	{}
 {blanc}		  		{}
-{control_char}		{throw new L1Exception(yyline + 1,yycolumn +1) ;);}
+{control_char}		{throw new L1Exception(yyline + 1,yycolumn +1);}
 
 // Error
 [^] { throw new L3Exception(yyline + 1,yycolumn +1 , yytext()) ;}
