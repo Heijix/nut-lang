@@ -246,11 +246,7 @@ IG
 
     _value
         *[ NAME ]
-        _value_reference _value_type
-
-    _value_reference
-        None
-        &[ NAME ]
+        _value_type
 
     _value_type
         _object
@@ -262,7 +258,6 @@ IG
 
 Tokens generated:
  - REF_ACCESS : for "\*["
- - REF_DEFINE : for "&["
  - R_SQ_BRACE : for "]"
  - STRING
  - NULL : for "null"
@@ -423,17 +418,13 @@ IG
 .. code-block:: none
 
     _root
-        _Data_Type_Identifier _Type_Root
+        _Data_Type_Identifier _value _root
+		None
 
     _Data_Type_Identifier
         None
         &[ id alias ]
         @
-
-    _Type_Root
-        _object
-        _array
-        &[ is_alias ]
 
 Changes with json
 ~~~~~~~~~~~~~~~~~

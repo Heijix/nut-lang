@@ -1,6 +1,10 @@
-Data Recursive :=
-    - string: path
-    - bool: true
-    - Recursive: absurd
+Import 'main2.nut'
 
-{}
+Data Path :=
+    - string: content
+    - bool: isAbsolute
+
+@ Path {
+    string: "./main.nut"
+    isAbsolute: true
+}
