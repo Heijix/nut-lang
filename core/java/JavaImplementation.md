@@ -170,6 +170,7 @@ _MemberTypeNext ->
 _Value -> 
         | STRING_VALUE
         | BOOLEAN_VALUE
+        | _ValueExtension
         | _Number
         
 _ValueExtension ->
