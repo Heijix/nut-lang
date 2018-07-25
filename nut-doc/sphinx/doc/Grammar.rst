@@ -27,11 +27,10 @@ Here is defined some definition of useful tokens, and some useful rules :
  - DIGIT19
  - STRING
  - NAME
- - ID_ALIAS
  - \_DIGIT (this one is a rule, not a token)
  - \_STD_CHAR
 
-Note : May STRING, NAME and ID_ALIAS are not tokens at the beginning, but it will be useful, if we transform them as tokens before parsing... Or you can keep them as rules, it is the choice of the programemr, but at the state of the first lexer, it is not consider as tokens...
+Note : May STRING, NAME are not tokens at the beginning, but it will be useful, if we transform them as tokens before parsing... Or you can keep them as rules, it is the choice of the programemr, but at the state of the first lexer, it is not consider as tokens...
 
 Ignorable characters
 --------------------
@@ -156,20 +155,6 @@ No IG
 .. code-block:: none
 
     NAME
-        _STD_CHAR _std_char_next
-
-    _std_char_next
-        None
-        _STD_CHAR _std_char_next
-
-ID_ALIAS
-~~~~~~~~
-
-No IG
-
-.. code-block:: none
-
-    ID_ALIAS
         ASCII_ACHAR id_alias_next
 
     id_alias_next
@@ -236,7 +221,6 @@ This will generate this bunch of tokens:
  - ALIAS : for the word Alias word
  - NAME : for the Type and NewType... We use these words to be more understandable when we will read the grammar later. But in fact, they are just names, we will interpret them as Types later.
  - COLON_EQUAL : for ':='
- - L_ANGLE_BRACE : for '<'
  - R_ANGLE_BRACE : for '>'
  - COMMA : for ','
  - COLON : for ':'
@@ -261,12 +245,12 @@ IG
 .. code-block:: none
 
     _value
-        *[ ID_ALIAS ]
+        *[ NAME ]
         _value_reference _value_type
 
     _value_reference
         None
-        &[ ID_ALIAS ]
+        &[ NAME ]
 
     _value_type
         _object
