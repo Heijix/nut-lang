@@ -18,7 +18,6 @@ This is a table of tokens which contain following symbol :
 | NUMBER        | -42           |
 | FLOAT_NUMBER  | 0.45          |
 | BOOLEAN_VALUE | true          |
-| ZERO          | 0             |
 | EOF           | \<\<EOF\>\>   |
 
 
@@ -34,7 +33,6 @@ Tokens contained these symbols have a value. Following classes conrespond to the
 - NumberToken
 - FloatToken
 - BooleanToken
-- ZeroToken
 
 Other symbols are in a simple token (name of the class : Token).
 ### Iota Grammar :
@@ -170,12 +168,15 @@ _MemberTypeNext ->
 ##### Omega Grammar #####
 
 _Value -> 
+        | STRING_VALUE
+        | BOOLEAN_VALUE
+        | _ValueExtension
+        | _Number
+        
+_ValueExtension ->
         | REF_ACCESS NAME R_SQ_BRACE
         | _Object
         | _Array
-        | STRING_VALUE
-        | BOOLEAN_VALUE
-        | _Number
         | NULL
         
 _Object ->
@@ -236,7 +237,7 @@ _Exp ->
         | None
         
 _Root ->
-        | _DataIdentifier _Value
+        | _DataIdentifier _ValueExtension
         
 _DataIdentifier ->
         | REF_DEFINE NAME R_SQ_BRACE
