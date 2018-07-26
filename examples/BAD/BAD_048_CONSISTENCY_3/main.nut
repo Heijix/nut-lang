@@ -1,10 +1,10 @@
-Data House :-
+Data House :=
     - Address: address
     - string: family_name
 
-Data Address :-
+Data Address :=
     - string: type
     - string: name
-    - uint: number
+    - uint32: number
 
 {}

@@ -1,7 +1,7 @@
 
-{
+@ {
     filePath = "./main.nut"
     isDirectory = true
 }
 
-["this", "is", "a", "array"]
+@ ["this", "is", "a", "array"]

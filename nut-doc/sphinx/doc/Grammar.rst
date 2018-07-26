@@ -27,11 +27,10 @@ Here is defined some definition of useful tokens, and some useful rules :
  - DIGIT19
  - STRING
  - NAME
- - ID_ALIAS
  - \_DIGIT (this one is a rule, not a token)
  - \_STD_CHAR
 
-Note : May STRING, NAME and ID_ALIAS are not tokens at the beginning, but it will be useful, if we transform them as tokens before parsing... Or you can keep them as rules, it is the choice of the programemr, but at the state of the first lexer, it is not consider as tokens...
+Note : May STRING, NAME are not tokens at the beginning, but it will be useful, if we transform them as tokens before parsing... Or you can keep them as rules, it is the choice of the programemr, but at the state of the first lexer, it is not consider as tokens...
 
 Ignorable characters
 --------------------
@@ -156,20 +155,6 @@ No IG
 .. code-block:: none
 
     NAME
-        _STD_CHAR _std_char_next
-
-    _std_char_next
-        None
-        _STD_CHAR _std_char_next
-
-ID_ALIAS
-~~~~~~~~
-
-No IG
-
-.. code-block:: none
-
-    ID_ALIAS
         ASCII_ACHAR id_alias_next
 
     id_alias_next
@@ -208,10 +193,10 @@ IG
         define_new_type_command Lambda_command
 
     alias_command
-        Alias NewType :- Type
+        Alias NewType := Type
 
     define_new_type_command
-        Data NewType Generic_Type :- MemberType_next
+        Data NewType Generic_Type := MemberType_next
 
     Generic_Type
         None
@@ -235,8 +220,7 @@ IG
 This will generate this bunch of tokens:
  - ALIAS : for the word Alias word
  - NAME : for the Type and NewType... We use these words to be more understandable when we will read the grammar later. But in fact, they are just names, we will interpret them as Types later.
- - COLON_DASH : for ':-'
- - L_ANGLE_BRACE : for '<'
+ - COLON_EQUAL : for ':='
  - R_ANGLE_BRACE : for '>'
  - COMMA : for ','
  - COLON : for ':'
@@ -261,12 +245,8 @@ IG
 .. code-block:: none
 
     _value
-        *[ ID_ALIAS ]
-        _value_reference _value_type
-
-    _value_reference
-        None
-        &[ ID_ALIAS ]
+        *[ NAME ]
+        _value_type
 
     _value_type
         _object
@@ -278,7 +258,6 @@ IG
 
 Tokens generated:
  - REF_ACCESS : for "\*["
- - REF_DEFINE : for "&["
  - R_SQ_BRACE : for "]"
  - STRING
  - NULL : for "null"
@@ -386,10 +365,17 @@ No IG here
 .. code-block:: none
 
     _number
-        _whole_part
-        _whole_part _frac
-        _whole_part _exp
-        _whole_part _frac _exp
+        _whole_part _number_decimal
+		_number_decimal
+
+	_number_decimal
+		_frac _number_decimal_exp
+		_number_decimal_exp
+		None
+
+	_number_decimal_exp
+		_exp
+		None
 
     _whole_part
         _DIGIT
@@ -411,6 +397,9 @@ No IG here
         e [+-]?
         E [+-]?
 
+Here, we have to check if the result of this rule (_number) is not a dot alone: ".".
+It is accepted by the grammar. But it is not by the program. It is a lexing error, it have to be seperated to be explicit.
+
 Tokens generated:
  - \_DIGIT
  - DIGIT19
@@ -429,17 +418,13 @@ IG
 .. code-block:: none
 
     _root
-        _Data_Type_Identifier _Type_Root
+        _Data_Type_Identifier _value _root
+		None
 
     _Data_Type_Identifier
         None
         &[ id alias ]
         @
-
-    _Type_Root
-        _object
-        _array
-        &[ is_alias ]
 
 Changes with json
 ~~~~~~~~~~~~~~~~~
