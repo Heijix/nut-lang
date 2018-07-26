@@ -1,10 +1,9 @@
-Import 'main2.nut'
 
-Data Path :-
-    - string: content
-    - bool: isAbsolute
+Data File :=
+    - string: filePath
+    - bool: isDirectory = "no"
 
-@ Path {
-    string: "./main.nut"
-    isAbsolute: true
+@ File {
+    filePath = "./main.nut"
+    isDirectory = true
 }

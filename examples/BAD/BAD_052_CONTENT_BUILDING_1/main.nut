@@ -1,7 +1,7 @@
 
-@ {
+&[R123] {
     filePath = "./main.nut"
     isDirectory = true
 }
 
-@ ["this", "is", "a", "array"]
+&[R1235] ["this", "is", "a", "array"]

@@ -1,9 +1,9 @@
-Data Address :-
+Data Address :=
     - string: type
     - string: name
-    - uint: number
+    - uint32: number
 
-Data House :-
+Data House :=
     - address: address
     - string: family_name
 
