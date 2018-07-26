@@ -27,5 +27,7 @@ remove_deploy:
 	docker stop doc_nut
 	docker rm doc_nut
 
+update_deploy: remove_deploy deploy_local
+
 clean:
 	rm -rf sphinx/_build

@@ -17,6 +17,7 @@ Welcome to Nut's documentation!
    doc/Examples
    doc/Grammar
    doc/Implementation
+   doc/Pseudo-code
    doc/Language
    doc/Roadmap
 

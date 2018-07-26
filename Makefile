@@ -16,6 +16,7 @@ usage:
 	@printf "Deploy Nut documentation\\n"
 	@printf "\\t%smake deploy_dev_doc%s\\n\\t\\t# Deploying it on localhost:42420\\n" "$(_CYAN)" "$(_END)"
 	@printf "\\t%smake remove_dev_doc%s\\n" "$(_CYAN)" "$(_END)"
+	@printf "\\t%smake update_dev_deploy%s\\n" "$(_CYAN)" "$(_END)"
 	@printf "\\n"
 	@printf "Compile libraries:\\n"
 	@printf "\\t%smake all%s\\n" "$(_CYAN)" "$(_END)"
@@ -43,6 +44,9 @@ deploy_dev_doc:
 
 remove_dev_doc:
 	make -C nut-doc remove_deploy
+
+update_dev_deploy:
+	make -C nut-doc update_deploy
 
 clean:
 	make -C nut-doc/ clean
