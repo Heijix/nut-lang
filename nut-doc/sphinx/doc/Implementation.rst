@@ -56,7 +56,7 @@ Lambda Tokens (LG)
 +=====================+=========+
 | ALIAS_CMD           | Alias   |
 +---------------------+---------+
-| DEFINITION          | :-      |
+| DEFINITION          | :=      |
 +---------------------+---------+
 | DASH                | \-      |
 +---------------------+---------+
@@ -114,10 +114,10 @@ Now, we query for the imports files. The imports file has to imported in order, 
 
 In the beginning of the program, we just have the standard primary types, id est :
 
- - char / uchar
- - short / ushort
- - int / uint
- - long / ulong
+ - int8 / uint8
+ - int16 / uint16
+ - int32 / uint32
+ - int64 / uint64
  - string
  - boolean
 
@@ -175,11 +175,9 @@ Errors Code and Meaning
 +----------+---------+-----------------------------------------------------------------------------------------------------------------------------+
 | C3       | ✘       | You cannot define a Data Type, with a Data Type that is not defined yet                                                     |
 +----------+---------+-----------------------------------------------------------------------------------------------------------------------------+
-| C4       | ✘       | Data Types cannot be defined recursively                                                                                    |
+| C4       | ✘       | We cannot overwrite a Data Type already defined in imported file                                                            |
 +----------+---------+-----------------------------------------------------------------------------------------------------------------------------+
-| C5       | ✘       | We cannot overwrite a Data Type already defined in imported file                                                            |
-+----------+---------+-----------------------------------------------------------------------------------------------------------------------------+
-| C6       | ✘       | The default value has to respect the Type in Data Type Definition                                                           |
+| C5       | ✘       | The default value has to respect the Type in Data Type Definition                                                           |
 +----------+---------+-----------------------------------------------------------------------------------------------------------------------------+
 | B1       | ✘       | Root Object has to be set explicitly with '@', and all objects that remains in the root scope need a alias id               |
 +----------+---------+-----------------------------------------------------------------------------------------------------------------------------+
