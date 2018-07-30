@@ -8,7 +8,20 @@ import parser.Sym;
  */
 public class Token {
 
-    protected int line,column;
+
+    /**
+     * line where the object is created
+     */
+    protected int line;
+
+    /**
+     * column where the object is created
+     */
+    protected int column;
+
+    /**
+     * symbol of the token
+     */
     protected Sym symbol;
 
     /**
@@ -23,14 +36,26 @@ public class Token {
         this.symbol = symbol;
     }
 
+    /**
+     * Getter
+     * @return line of the token
+     */
     public int getLine() {
         return line;
     }
 
+    /**
+     * Getter
+     * @return column of the token
+     */
     public int getColumn() {
         return column;
     }
 
+    /**
+     * Getter
+     * @return symbol of the token
+     */
     public Sym getSymbol() {
         return symbol;
     }
