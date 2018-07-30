@@ -1,7 +1,7 @@
 package parser;
 
 import jflex.Lexer;
-import Exception.L.L3Exception;
+import exception.L.L3Exception;
 import parser.token.*;
 
 /**
@@ -39,10 +39,10 @@ public class LookAhead {
 
     /**
      * Verify if the token is good
-     * @param token to compare with current
+     * @param symbol to compare with current
      * @return true if token and current are the same
      */
-    protected boolean check (Sym symbol) {
+    public boolean check (Sym symbol) {
         return current.getSymbol() == symbol;
     }
 
@@ -52,9 +52,9 @@ public class LookAhead {
      * @param symbol symbol send by the parser
      * @throws L3Exception if it's a wrong symbol
      */
-    protected void eat (Sym symbol) throws Exception {
+    public void eat (Sym symbol) throws Exception {
         if (!check(symbol)) {
-            throw new L3Exception();
+            throw new L3Exception(current.getLine(), current.getColumn(), current.getSymbol().toString());
         }
         this.current = lexer.yylex();
     }
@@ -66,17 +66,17 @@ public class LookAhead {
      ***********/
 
     /** Get the token line */
-    protected int line () {
+    public int line () {
         return current.getLine();
     }
 
     /** Get the token column */
-    protected int column () {
+    public int column () {
         return current.getColumn();
     }
 
     /** Get the token column */
-    protected Sym symbol () {
+    public Sym symbol () {
         return current.getSymbol();
     }
 
@@ -91,7 +91,7 @@ public class LookAhead {
      * @return BooleanToken value
      * @throws Exception if it's not the right token
      */
-    protected boolean getBoolean () throws Exception {
+    public boolean getBoolean () throws Exception {
         if (current instanceof  BooleanToken ) {
             return  ((BooleanToken)current).getValue();
         }
@@ -103,7 +103,7 @@ public class LookAhead {
      * @return StringToken value
      * @throws Exception if it's not the right token
      */
-    protected String getString () throws Exception {
+    public String getString () throws Exception {
         if (current instanceof StringToken) {
             return ((StringToken) current).getValue();
         }
@@ -115,7 +115,7 @@ public class LookAhead {
      * @return FloatToken value
      * @throws Exception if it's not the right token
      */
-    protected float getFloat () throws Exception {
+    public float getFloat () throws Exception {
         if (current instanceof FloatToken) {
             return ((FloatToken)current).getValue();
         }
@@ -127,7 +127,7 @@ public class LookAhead {
      * @return NumberToken value
      * @throws Exception if it's not the right token
      */
-    protected long getLong () throws Exception {
+    public long getLong () throws Exception {
         if (current instanceof FloatToken) {
             return ((NumberToken)current).getValue();
         }
