@@ -51,3 +51,14 @@ task jflex (type:Exec){
 javadoc{
     destinationDir = file("docs/")
 }
+task compileAll (type:Exec){
+    description 'Compile jflex then compile all classes'
+    doFirst{
+        executable 'gradle'
+        args 'jflex'
+    }
+    doLast{
+        executable 'gradle'
+        args 'assemble'
+    }
+}

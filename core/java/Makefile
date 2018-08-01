@@ -4,6 +4,8 @@ all:
 	@printf "this project depends of gradle-4.9. you need to have it.\\n"
 	@printf "make gradle - download and setup gradle-4.9\\n\\n"
 	@printf "make assemble - assembles the outputs of this project.\\n"
+	@printf "make jflex - compiles jfex file.\\n"
+	@printf "make compileAll - compiles jflex then assembles the outputs of this project.\\n"
 	@printf "make clean - deletes the build directory.\\n"
 	@printf "make javadoc - generates javadoc api documentation for the main source code.\\n"
 	@printf "make build - assembles and tests this project.\\n"
@@ -20,6 +22,12 @@ gradle:
 assemble:
 	@gradle assemble
 
+jflex:
+	@gradle jflex
+
+compileAll:
+	@gradle compileAll
+
 clean:
 	@gradle clean
 
@@ -33,5 +41,5 @@ test:
 	@gradle test
 
 help:
-	@gradle tasks
+	@gradle tasks --all
 	@printf "\\nyou need to do - gradle <command> - to run an other command."
