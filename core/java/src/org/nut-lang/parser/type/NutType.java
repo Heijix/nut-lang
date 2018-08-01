@@ -7,65 +7,60 @@ import parser.Sym;
  * Class for all nut type.
  * @author Heijix
  */
-public class NutType
-{
-	/**
-	 * type symbol
-	 */
-	protected Sym type;
+public class NutType {
 
-	/**
-	 * show is the type has a default value
-	 */
-	protected boolean hasDefaultValue;
+    /**
+     * type symbol
+     */
+    protected Sym type;
 
-	/**
-	 * content of the default value
-	 */
-	protected Nut defaultValue;
+    /**
+     * show is the type has a default value
+     */
+    protected boolean hasDefaultValue;
 
-	/**
-	 * General constructor of a NutType
-	 * @param type symbol of the type
-	 */
-	public NutType(Sym type)
-	{
-		this.type            = type;
-		this.hasDefaultValue = false;
-		this.defaultValue    = null;
-	}
+    /**
+     * content of the default value
+     */
+    protected Nut defaultValue;
 
-	/**
-	 * Getter
-	 * @return type of the NutType
-	 */
-	public Sym getType()
-	{
-		return (this.type);
-	}
+    /**
+     * General constructor of a NutType
+     * @param type symbol of the type
+     */
+    public NutType(Sym type) {
+        this.type = type;
+        this.hasDefaultValue = false;
+        this.defaultValue = null;
+    }
 
-	/**
-	 * Getter
-	 * @return content of the default value
-	 */
-	public Nut getDefaultValue()
-	{
-		return (defaultValue);
-	}
+    /**
+     * Getter
+     * @return type of the NutType
+     */
+    public Sym getType(){
+        return this.type;
+    }
 
-	/**
-	 * It adds a default value in the NutType
-	 * @param defaultValue content of the default value
-	 * @return true if the default value is added, false otherwise.
-	 */
-	public boolean addDefaultValue(Nut defaultValue)
-	{
-		if (this.defaultValue == null)
-		{
-			this.defaultValue    = defaultValue;
-			this.hasDefaultValue = true;
-			return (true);
-		}
-		return (false);
-	}
+    /**
+     * Getter
+     * @return content of the default value
+     */
+    public Nut getDefaultValue() {
+        return defaultValue;
+    }
+
+    /**
+     * It adds a default value in the NutType
+     * @param defaultValue content of the default value
+     * @return true if the default value is added, false otherwise.
+     */
+    public boolean addDefaultValue(Nut defaultValue){
+        if(this.defaultValue == null){
+            this.defaultValue = defaultValue;
+            this.hasDefaultValue = true;
+            return true;
+        }
+        return false;
+    }
 }
