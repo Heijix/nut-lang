@@ -4,11 +4,11 @@ package parser;
  * This file enums all symbols.
  * @author Heijix
  */
-public enum Sym{
-
+public enum Sym
+{
 	/*******************
-	 * Standar symbols *
-	 *******************/
+	* Standar symbols *
+	*******************/
 
 	/**
 	 * value of a string in single quotes or double quotes.
@@ -42,8 +42,8 @@ public enum Sym{
 
 
 	/****************
-	 * Iota grammar *
-	 ****************/
+	* Iota grammar *
+	****************/
 
 	/**
 	 * 'import' symbol
@@ -52,8 +52,8 @@ public enum Sym{
 
 
 	/******************
-	 * Lambda grammar *
-	 ******************/
+	* Lambda grammar *
+	******************/
 
 	/**
 	 * 'null' symbol
@@ -172,8 +172,8 @@ public enum Sym{
 
 
 	/*****************
-	 * Omega grammar *
-	 *****************/
+	* Omega grammar *
+	*****************/
 
 	/**
 	 * '*[' symbol
@@ -214,5 +214,4 @@ public enum Sym{
 	 * '@' symbol
 	 */
 	ROOT;
-
 }
